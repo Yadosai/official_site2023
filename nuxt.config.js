@@ -32,6 +32,16 @@ export default {
     '@nuxtjs/vuetify'
   ],
 
+  buildModules: [
+    '@nuxtjs/style-resources',
+  ],
+
+  styleResources: {
+    scss: [
+      '~/assets/scss/_mixins.scss' // use underscore "_" & also file extension ".scss"
+    ]
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   }
