@@ -5,6 +5,7 @@
       <v-main>
         <Header/>
         <SubHeader/>
+        <Main/>
       </v-main>
     </v-app>
   </div>
