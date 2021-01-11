@@ -5,9 +5,9 @@
       dark
       fixed
     >
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = true" class="d-xs-inline d-md-none"></v-app-bar-nav-icon>
       <v-toolbar-title class="font-weight-black">やどかり祭</v-toolbar-title>
-      <v-tabs right>
+      <v-tabs right class="d-none d-md-block">
         <v-tab>お知らせ</v-tab>
         <v-tab>新歓情報</v-tab>
       </v-tabs>
@@ -69,19 +69,8 @@ export default {
   overflow: visible !important;
   margin-right: 50px !important;
 }
-
-.v-app-bar__nav-icon {
-  @include display_pc {
-    display: none !important;
-  }
-}
  
 .v-tabs {
   padding-right: 36px;
-  display: none;
- 
-  @include display_pc {
-    display: block !important;
-  }
 }
 </style>
