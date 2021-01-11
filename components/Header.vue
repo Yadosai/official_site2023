@@ -1,63 +1,55 @@
 <template>
   <section>
-    <v-carousel :show-arrows="false" hide-delimiters cycle>
+    <v-carousel :show-arrows="false" hide-delimiters cycle height="400">
       <v-carousel-item
         src="/images/carousel_image1.jpg"
-        reverse-transition="fade-transition"
-        transition="fade-transition"
       >
         <v-row
           class="fill-height"
           align="center"
           justify="center"
         >
-          <div class="text-h2 fes-title-wrap">
-            <span class="fes-title">やどかり祭</span>
+          <div class="fes-title-wrap">
+            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
           </div>
         </v-row>
       </v-carousel-item>
       <v-carousel-item
         src="/images/carousel_image2.jpg"
-        reverse-transition="fade-transition"
-        transition="fade-transition"
       >
         <v-row
           class="fill-height"
           align="center"
           justify="center"
         >
-          <div class="text-h2 fes-title-wrap">
-            <span class="fes-title">やどかり祭</span>
+          <div class="fes-title-wrap">
+            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
           </div>
         </v-row>
       </v-carousel-item>
       <v-carousel-item
         src="/images/carousel_image3.jpg"
-        reverse-transition="fade-transition"
-        transition="fade-transition"
       >
         <v-row
           class="fill-height"
           align="center"
           justify="center"
         >
-          <div class="text-h2 fes-title-wrap">
-            <span class="fes-title">やどかり祭</span>
+          <div class="fes-title-wrap">
+            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
           </div>
         </v-row>
       </v-carousel-item>
       <v-carousel-item
         src="/images/carousel_image4.jpg"
-        reverse-transition="fade-transition"
-        transition="fade-transition"
       >
         <v-row
           class="fill-height"
           align="center"
           justify="center"
         >
-          <div class="text-h2 fes-title-wrap">
-            <span class="fes-title">やどかり祭</span>
+          <div class="fes-title-wrap">
+            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
           </div>
         </v-row>
       </v-carousel-item>
@@ -85,29 +77,31 @@ export default {
 </script>
 
 <style lang="scss">
-.fes-title {
-  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+.fes-title-wrap {
+  .fes-title-text {
+    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif!important;
+  }
 }
 // .fes-title-wrap {
 //   background-color: #B71C1C;
 //   border-radius: 10px;
 //   padding: 15px;
 // }
-#curve-image-wrap {
-  height: 150px;
-  position: relative;
-  top: -150px;
-  z-index: 999999;
-  padding-right: 10%;
+// #curve-image-wrap {
+//   height: 150px;
+//   position: relative;
+//   top: -150px;
+//   z-index: 999999;
+//   padding-right: 10%;
 
-  #short-news {
-    @include display_pc {
-      #prev-fes::after {
-        content: '/';
-    }
-    }
-  }
-}
+//   #short-news {
+//     @include display_pc {
+//       #prev-fes::after {
+//         content: '/';
+//     }
+//     }
+//   }
+// }
 
 
 </style>
