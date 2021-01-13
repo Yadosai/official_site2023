@@ -1,7 +1,6 @@
 <template>
   <div>
     <v-app>
-      <TopBar/>
       <v-main>
         <Header/>
         <SubHeader/>
