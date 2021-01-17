@@ -1,17 +1,12 @@
 <template>
-  <div>
-    <v-app>
-      <v-main>
-        <Header/>
-        <SubHeader/>
-        <Main/>
-      </v-main>
-    </v-app>
-  </div>
+  <section>
+    <Header/>
+  </section>
 </template>
 
 <script>
-export default {}
+export default {
+}
 </script>
 
 <style>

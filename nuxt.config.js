@@ -1,4 +1,5 @@
 export default {
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'official_site2021',
@@ -14,7 +15,7 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '@/assets/scss/style.scss'
+    '@/assets/scss/style.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -30,7 +31,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxtjs/vuetify'
+    // '@nuxtjs/vuetify',
+    '@nuxtjs/bulma'
   ],
 
   buildModules: [
