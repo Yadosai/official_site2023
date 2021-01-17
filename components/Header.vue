@@ -1,9 +1,7 @@
 <template>
   <section>
-    <v-carousel :show-arrows="false" hide-delimiters cycle height="400">
-      <v-carousel-item
-        src="/images/carousel_image1.jpg"
-      >
+    <v-carousel :show-arrows="false" hide-delimiters cycle height="600">
+      <v-carousel-item class="carousel-image carousel-image1">
         <v-row
           class="fill-height"
           align="center"
@@ -14,9 +12,7 @@
           </div>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item
-        src="/images/carousel_image2.jpg"
-      >
+      <v-carousel-item class="carousel-image carousel-image2">
         <v-row
           class="fill-height"
           align="center"
@@ -27,9 +23,7 @@
           </div>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item
-        src="/images/carousel_image3.jpg"
-      >
+      <v-carousel-item class="carousel-image carousel-image3">
         <v-row
           class="fill-height"
           align="center"
@@ -40,9 +34,7 @@
           </div>
         </v-row>
       </v-carousel-item>
-      <v-carousel-item
-        src="/images/carousel_image4.jpg"
-      >
+      <v-carousel-item class="carousel-image carousel-image4">
         <v-row
           class="fill-height"
           align="center"
@@ -77,6 +69,26 @@ export default {
 </script>
 
 <style lang="scss">
+.carousel-image{
+  background-size: cover;
+  position: relative;
+  &1{
+    background-image: url('/images/carousel_image1.jpg');
+    background-position: top center;
+  }
+  &2{
+    background-image: url('/images/carousel_image2.jpg');
+    background-position: center center;
+  }
+  &3{
+    background-image: url('/images/carousel_image3.jpg');
+    background-position: center center;
+  }
+  &4{
+    background-image: url('/images/carousel_image4.jpg');
+    background-position: center center;
+  }
+}
 .fes-title-wrap {
   .fes-title-text {
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif!important;
