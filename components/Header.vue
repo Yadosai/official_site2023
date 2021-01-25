@@ -1,64 +1,6 @@
 <template>
   <section>
-    <!-- <v-carousel :show-arrows="false" hide-delimiters cycle height="600">
-      <v-carousel-item class="carousel-image carousel-image1">
-        <v-row
-          class="fill-height"
-          align="center"
-          justify="center"
-        >
-          <div class="fes-title-wrap">
-            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
-          </div>
-        </v-row>
-      </v-carousel-item>
-      <v-carousel-item class="carousel-image carousel-image2">
-        <v-row
-          class="fill-height"
-          align="center"
-          justify="center"
-        >
-          <div class="fes-title-wrap">
-            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
-          </div>
-        </v-row>
-      </v-carousel-item>
-      <v-carousel-item class="carousel-image carousel-image3">
-        <v-row
-          class="fill-height"
-          align="center"
-          justify="center"
-        >
-          <div class="fes-title-wrap">
-            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
-          </div>
-        </v-row>
-      </v-carousel-item>
-      <v-carousel-item class="carousel-image carousel-image4">
-        <v-row
-          class="fill-height"
-          align="center"
-          justify="center"
-        >
-          <div class="fes-title-wrap">
-            <span class="fes-title-text text-h2 font-weight-black">やどかり祭</span>
-          </div>
-        </v-row>
-      </v-carousel-item>
-    </v-carousel>
-    <div class="pa-10 red darken-4 text-center">
-      Here is festival news 
-    </div>
-    <div id="curve-image-wrap" class="blue d-flex justify-end align-center">
-      <div id="short-news" class="d-md-flex d-sm-block">
-        <div class="news font-weight-medium white--text text-h4 text-sm-right" id="prev-fes">
-          前夜祭5月25日
-        </div>
-        <div class="news font-weight-medium white--text text-h4 text-sm-right" id="fes">
-          本祭5月29日
-        </div>
-      </div>
-    </div> -->
+   
   </section>
 </template>
 
