@@ -1,5 +1,8 @@
 export default {
 
+  // SSR is off
+  ssr: false,
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'official_site2021',
@@ -9,7 +12,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -31,7 +34,6 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // '@nuxtjs/vuetify',
     '@nuxtjs/bulma'
   ],
 
