@@ -13,6 +13,11 @@ export default {
   components: {
     TopBar,
     Footer
+  },
+  head: {
+    bodyAttrs: {
+      class: 'has-navbar-fixed-top'
+    }
   }
 }
 </script>
