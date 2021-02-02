@@ -1,12 +1,12 @@
 <template>
   <section>
-    <div>
-        <div class="box row">
+    <div class="row justify-content-center">
+      <div class="box">
          <a href="https://yadosai.com" target="_blank">
              <img src="https://bulma.io/images/placeholders/640x480.png" alt="sponsor" class="web-ad-content">
          </a>
-        </div>
       </div>
+    </div>
   </section>
 </template>
 
