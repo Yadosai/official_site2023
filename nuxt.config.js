@@ -1,3 +1,4 @@
+import * as FontAwesome from './build/fontawesome.js'
 export default {
 
   // SSR is off
@@ -30,12 +31,22 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/fontawesome', { component: 'fontAwesome', suffix: true }
   ],
+
+  fontawesome: {
+    icons: {
+      solid: FontAwesome.solid,
+      regular: FontAwesome.regular,
+      brands: FontAwesome.brands
+    }
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
   ],
+
 
   buildModules: [
     '@nuxtjs/style-resources',
