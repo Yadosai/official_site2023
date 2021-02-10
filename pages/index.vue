@@ -1,6 +1,11 @@
 <template>
   <section>
     <Header/>
+    <body>
+      <div class="column">
+      <Card/>
+      </div>
+    </body>
   </section>
 </template>
 
