@@ -25,4 +25,10 @@ export default {
 .title {
     color: $BLUE;
 }
+
+.date {
+    color: $BLACK;
+    justify-content: flex-end;
+    bottom: 0;
+}
 </style>
