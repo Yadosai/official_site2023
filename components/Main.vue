@@ -1,64 +1,63 @@
 <template>
   <main>
-    <v-container>
-      <v-row class="mb-10 rounded-lg green">
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-      </v-row>
-      <v-row class="mb-10 rounded-lg green">
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="green" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="green" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
+    <div id="events-wrap" class="p-6">
+      <CardsSwiper/>
+    </div>
+    <div id="cards-wrap" class="p-6">
+      <div class="columns">
+        <div class="column">
+          <Card image-path="/images/info/sample1.jpg" title="やどかり祭とは"/>
+        </div>
+        <div class="column">
+          <Card image-path="/images/info/sample2.jpg" title="新歓について"/>
+        </div>
+        <div class="column">
+          <Card image-path="/images/info/sample1.jpg" title="開催状況"/>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <Card image-path="/images/info/sample1.jpg" title="アクセス"/>
+        </div>
+        <div class="column">
+          <Card image-path="/images/info/sample2.jpg" title="お知らせ"/>
+        </div>
+        <div class="column">
+          <Card image-path="/images/info/sample1.jpg" title="ご支援・ご協賛"/>
+        </div>
+      </div>
+    </div>
+    <div id="sponsors-wrap" class="p-6">
+      <div class="columns">
+        <div class="column">
+          <Card image-path="/images/ad/ad-offer.svg"/>
+        </div>
+        <div class="column">
+          <Card image-path="/images/ad/ad1.svg"/>
+        </div>
+        <div class="column">
+          <Card image-path="/images/ad/ad2.svg"/>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 
 <script>
 export default {
-
 }
 </script>
 
-<style>
-main {
-  padding: 36px;
+<style lang="scss" scoped>
+#events-wrap {
+  background-color: #D4EAF3;
+}
+
+#cards-wrap {
+  background-color: #87CEEB;
+}
+
+#sponsors-wrap {
+  background-color: #97c2eb;
 }
 </style>

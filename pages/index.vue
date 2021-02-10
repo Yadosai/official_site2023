@@ -1,6 +1,7 @@
 <template>
   <section>
     <Header/>
+    <Main/>
   </section>
 </template>
 
