@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scoped>
 .Covid19_logo{
     
-    font-size: 30px;
+    font-size: 3vw;
     font-family: arial;
     background-color: #ffffff;
     padding: 5px;
