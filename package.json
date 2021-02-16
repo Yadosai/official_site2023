@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
