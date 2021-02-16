@@ -9,7 +9,7 @@
       </h1>
       <p id="event-actor">総務書記部局・宣伝部局</p>
       <div id="event-img-wrap" class="mt-4">
-        <img src="/images/torch.jpg" alt="torch-img" id="event-img">
+        <img src="/images/events/torch.jpg" alt="torch-img" id="event-img">
       </div>
       <p id="event-description" class="mt-4">
         企画についての情報をここに記述する。<br>
@@ -18,7 +18,7 @@
         五月祭では下記のように他の企画へのリンクを貼っている。<br>
       </p>
       <div id="other-events" class="mt-6">
-        Here is other events
+        <CardsSwiper/>
       </div>
     </div>
   </section>
