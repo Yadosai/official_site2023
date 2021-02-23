@@ -1,6 +1,8 @@
 <template>
   <section>
     <Hero/>
+    <BezierSvg1/>
+    <BezierSvg2/>
   </section>
 </template>
 
