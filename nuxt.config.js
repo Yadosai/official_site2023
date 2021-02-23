@@ -37,7 +37,8 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+    'nuxt-svg-loader'
   ],
 
   buildModules: [
@@ -62,5 +63,13 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  svgLoader: {
+    svgoConfig: {
+      plugins: [
+        { prefixIds: false } // Disables prefixing for SVG IDs
+      ]
+    }
   }
 }
