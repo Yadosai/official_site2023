@@ -17,11 +17,12 @@ export default {
 
 <style lang="scss">
 .hero {
-    background-image: url(https://bulma.io/images/placeholders/640x480.png);
+    background-image: url(/images/info/sample1.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
 }
+
 .title {
     color: $BLUE;
 }
@@ -31,4 +32,11 @@ export default {
     justify-content: flex-end;
     bottom: 0;
 }
+
+@media (max-width: 576px) {
+    .hero {
+    background-image: url(/images/info/sample1_mobile.jpg);
+  }
+}
+
 </style>
