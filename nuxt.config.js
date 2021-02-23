@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-import * as FontAwesome from './build/fontawesome.js'
-=======
 import * as FontAwesome from './builds/font-awesome';
 
->>>>>>> develop
 export default {
 
   // SSR is off
