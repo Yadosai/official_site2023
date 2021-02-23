@@ -1,3 +1,5 @@
+import * as FontAwesome from './builds/font-awesome';
+
 export default {
 
   // SSR is off
@@ -23,6 +25,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    { src: '@/plugins/vue-awesome-swiper', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -39,7 +42,16 @@ export default {
 
   buildModules: [
     '@nuxtjs/style-resources',
+    ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }],
   ],
+
+  fontawesome: {
+    icons: {
+      solid: FontAwesome.solid,
+      regular: FontAwesome.regular,
+      brands: FontAwesome.brands
+    }
+  },
 
   styleResources: {
     scss: [

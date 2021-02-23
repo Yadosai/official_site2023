@@ -1,8 +1,11 @@
 <template>
   <section>
     <Header/>
+
     <Hero/>
     <Adcard/>
+    <Main/>
+
   </section>
 </template>
 
