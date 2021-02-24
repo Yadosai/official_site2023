@@ -1,4 +1,5 @@
 import * as FontAwesome from './builds/font-awesome';
+import * as EventsRouting from './builds/events-routing';
 
 export default {
 
@@ -45,6 +46,14 @@ export default {
     '@nuxtjs/style-resources',
     ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }],
   ],
+
+  generate: {
+    routes() {
+      return EventsRouting.events.map(event => {
+        return `events/${event}`
+      })
+    }
+  },
 
   fontawesome: {
     icons: {
