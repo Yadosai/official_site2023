@@ -22,6 +22,7 @@ export default {
     Adcard,
     Hero
   }
+}
 </script>
 
 <style>
