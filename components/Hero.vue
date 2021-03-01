@@ -1,11 +1,9 @@
 <template>
     <section class="hero-img">
         <div class="hero-img-body">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    やどかり祭
-                </h1>
-            </div>
+            <h1 class="title">
+                やどかり祭
+            </h1>
         </div>
         <div class="curve-hero">
             <BezierSvg1/>
@@ -40,21 +38,28 @@ export default {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.hero-img-body {
+    flex-grow: 1;
 }
 .title {
-    position: absolute;
-    display: block;
+    position: relative;
     top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: $BLUE;
-    margin: 0;
-    padding: 0;
+    color: white;
+    text-align: center;
 }
-.curve-hero{
-    position: absolute;
-    bottom: 0;
-}
+// .title {
+//     position: absolute;
+//     display: block;
+//     top: 50%;
+//     left: 50%;
+//     -ms-transform: translate(-50%, -50%);
+//     -webkit-transform: translate(-50%, -50%);
+//     transform: translate(-50%, -50%);
+//     color: $BLUE;
+//     margin: 0;
+//     padding: 0;
+// }
 </style>
