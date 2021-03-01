@@ -1,5 +1,5 @@
 const events = {
-  "touch" : {
+  "torch" : {
     "name": "トーチトワリング",
     "actor": "総務書記部局・宣伝部局",
     "image_name": "torch.jpg",
