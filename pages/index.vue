@@ -6,9 +6,7 @@
         <BezierSvg1/> 
       </div>-->
     </div>
-    <div class="curve-footer">
       <BezierSvg2/>
-    </div>
   </section>
 </template>
 

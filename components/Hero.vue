@@ -5,9 +5,7 @@
                 やどかり祭
             </h1>
         </div>
-        <div class="curve-hero">
-            <BezierSvg1/>
-        </div>
+        <BezierSvg1/>
     </section>
 </template>
 
