@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "start-static": "http-server ./dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -22,6 +23,7 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/svg": "^0.1.12",
+    "http-server": "^0.12.3",
     "node-sass": "^5.0.0",
     "nuxt-svg-loader": "^1.2.0",
     "sass-loader": "^10.1.1"
