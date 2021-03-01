@@ -3,6 +3,8 @@ import * as EventsRouting from './builds/events-routing';
 
 export default {
 
+  target: 'static',
+
   // SSR is off
   ssr: false,
 
