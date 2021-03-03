@@ -23,11 +23,23 @@
 
 <script>
 export default {
-  asyncData({ params }) {
+  data () {
+    return {
+      event: {}
+    }
+  },
+  created() {
+    const params = this.$nuxt.$route.params;
     const events_info = require('../../builds/events-info');
     const event = events_info.events[params.event];
+    this.event = event;
+  },
+  head () {
     return {
-      event
+      title: this.event.name,
+      meta: [
+        { hid: 'description', name: 'description', content: this.event.description }
+      ]
     }
   }
 }
