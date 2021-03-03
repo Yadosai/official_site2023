@@ -46,6 +46,7 @@ export default {
 
   buildModules: [
     '@nuxtjs/style-resources',
+    '@nuxtjs/google-analytics',
     ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }],
   ],
 
@@ -70,6 +71,10 @@ export default {
       '@/assets/scss/_mixins.scss',
       '@/assets/scss/_variables.scss'
     ]
+  },
+
+  googleAnalytics: {
+    id: 'UA-XXX-X'
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
