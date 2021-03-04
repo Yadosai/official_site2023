@@ -1,14 +1,13 @@
 <template>
   <section>
-    <Hero/>
-    <BezierSvg1/>
-    <BezierSvg2/>
-    <Main/>
+    <Hero />
+    <BezierSvg1 />
+    <BezierSvg2 />
+    <Main />
   </section>
 </template>
 
 <script>
-
 import BezierSvg1 from '@/static/images/Curve.svg'
 import BezierSvg2 from '@/static/images/Curve2.svg'
 import Adcard from '@/components/Adcard'
@@ -25,6 +24,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
