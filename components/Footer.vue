@@ -22,7 +22,22 @@
                         </div>                
                     </div>
                     <div class="column">
-                        <fa-icon :icon="['fab', 'twitter']" />
+                        <div class="column-left">
+                            <div class="social-icons">
+                                <span class="fa-stack fa-lg social-icon">
+                                    <fa-icon :icon="['far', 'circle']" class="fa-stack-2x"/>
+                                    <fa-icon :icon="['fab', 'twitter']" class="fa-stack-1x"/>
+                                </span>
+                                <p>@yadokari_sai</p>
+                            </div>
+                            <div class="social-icons">
+                                <span class="fa-stack fa-lg social-icon">
+                                    <fa-icon :icon="['far', 'circle']" class="fa-stack-2x"/>
+                                    <fa-icon :icon="['fas', 'envelope']" class="fa-stack-1x"/>
+                                </span>
+                                <p>yadosai.tkb@gmail.com</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -48,6 +63,7 @@ export default {
     background-size: cover;
     color: #ffffff
 }
+
 .contents{
     display: flex;
     p{
@@ -72,5 +88,21 @@ export default {
     margin:0 auto;
     padding-top: 3em;
 }
+
+.column-left{
+    display: flex;
+    justify-content:space-around;
+}
+.social-icons{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon{
+    font-size: 4em;
+}
+
+
 
 </style>

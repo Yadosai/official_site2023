@@ -1,8 +1,11 @@
 const solid = [
-    'faCaretLeft'
+    'faCircle',
+    'faEnvelope'
 ]
 
-const regular = []
+const regular = [
+    'faCircle'
+]
 
 const brands = [
     "faTwitter",
