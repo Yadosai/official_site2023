@@ -59,9 +59,10 @@ export default {
 
 <style lang="scss" scoped>
 .thefooter{
-    background-image: url('/images/main_image.jpeg'); 
+    background-color: $BLACK;
     background-size: cover;
-    color: #ffffff
+    color: $WHITE;
+    padding: 1em 5em 2em;
 }
 
 .contents{
