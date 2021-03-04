@@ -1,15 +1,9 @@
 <template>
-  <section class="pa-10 text-center blue">
-    Here is message
-  </section>
+  <section class="pa-10 text-center blue">Here is message</section>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

@@ -1,8 +1,7 @@
-import * as FontAwesome from './builds/font-awesome';
-import * as EventsRouting from './builds/events-routing';
+import * as FontAwesome from './builds/font-awesome'
+import * as EventsRouting from './builds/events-routing'
 
 export default {
-
   target: 'static',
 
   // SSR is off
@@ -16,35 +15,26 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    '@/assets/scss/style.scss',
-  ],
+  css: ['@/assets/scss/style.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [
-    { src: '@/plugins/vue-awesome-swiper', ssr: false }
-  ],
+  plugins: [{ src: '@/plugins/vue-awesome-swiper', ssr: false }],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-  ],
+  buildModules: [],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-    '@nuxtjs/bulma',
-    'nuxt-svg-loader'
-  ],
+  modules: ['@nuxtjs/bulma', 'nuxt-svg-loader'],
 
   buildModules: [
+    '@nuxtjs/eslint-module',
     '@nuxtjs/style-resources',
     '@nuxtjs/google-analytics',
     ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }],
@@ -52,7 +42,7 @@ export default {
 
   generate: {
     routes() {
-      return EventsRouting.events.map(event => {
+      return EventsRouting.events.map((event) => {
         return `events/${event}`
       })
     }
@@ -67,10 +57,7 @@ export default {
   },
 
   styleResources: {
-    scss: [
-      '@/assets/scss/_mixins.scss',
-      '@/assets/scss/_variables.scss'
-    ]
+    scss: ['@/assets/scss/_mixins.scss', '@/assets/scss/_variables.scss']
   },
 
   googleAnalytics: {
@@ -78,8 +65,7 @@ export default {
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {
-  },
+  build: {},
 
   svgLoader: {
     svgoConfig: {

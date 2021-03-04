@@ -1,7 +1,3 @@
-const events = [
-  "torch",
-  "yukacon",
-  "hanabi"
-];
+const events = ['torch', 'yukacon', 'hanabi']
 
-export { events };
+export { events }
