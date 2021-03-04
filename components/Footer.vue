@@ -22,6 +22,7 @@
                         </div>                
                     </div>
                     <div class="column">
+                        <fa-icon :icon="['fab', 'twitter']" />
                     </div>
                 </div>
             </div>
@@ -32,13 +33,6 @@
 Google アナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。また、収集されるログはGoogleのプライバシーポリシーに基づいて管理されます。</p>
                 </div>
             </div>
-            <p>丸で囲んだ数字
-                <span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-inverse fa-stack-1x">1</i>
-				</span>
-            </p>
-            <font-awesome-icon icon="download"/>
         </div>
     </section>
 </template>
@@ -58,7 +52,7 @@ export default {
     display: flex;
     p{
         margin: 1em 1em;
-        font-size: 0.7em;
+        font-size: 1em;
     }
 }
 .blank{
