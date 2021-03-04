@@ -36,7 +36,8 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/style-resources',
-    ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }]
+    '@nuxtjs/google-analytics',
+    ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }],
   ],
 
   generate: {
@@ -57,6 +58,10 @@ export default {
 
   styleResources: {
     scss: ['@/assets/scss/_mixins.scss', '@/assets/scss/_variables.scss']
+  },
+
+  googleAnalytics: {
+    id: 'UA-XXX-X'
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
