@@ -4,6 +4,7 @@
     <BezierSvg1 />
     <BezierSvg2 />
     <Main />
+    <Adcard/>
   </section>
 </template>
 
