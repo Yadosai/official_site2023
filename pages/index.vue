@@ -1,20 +1,10 @@
 <template>
   <section>
-<<<<<<< HEAD
-    <div class="hero-index">
-      <Hero/>
-      <!--<div class="curve-hero">
-        <BezierSvg1/> 
-      </div>-->
-    </div>
-      <BezierSvg2/>
-=======
     <Hero />
     <BezierSvg1 />
     <BezierSvg2 />
     <Main />
     <Adcard/>
->>>>>>> develop
   </section>
 </template>
 
