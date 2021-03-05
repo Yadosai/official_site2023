@@ -27,12 +27,10 @@ export default {
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ['@nuxtjs/bulma', 'nuxt-svg-loader'],
 
+  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/style-resources',
