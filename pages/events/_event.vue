@@ -1,25 +1,21 @@
 <template>
   <section>
     <div id="header-img-wrap">
-      <img id="header-img" src="/images/header.jpeg" alt="header-image" />
+      <img src="/images/header.jpeg" alt="header-image" id="header-img">
     </div>
     <div id="event-wrap" class="p-6">
-      <h1 id="event-title" class="is-size-5 has-text-weight-bold">
+      <h1 class="is-size-5 has-text-weight-bold" id="event-title">
         {{ event.name }}
       </h1>
       <p id="event-actor">{{ event.actor }}</p>
       <div id="event-img-wrap" class="mt-4">
-        <img
-          id="event-img"
-          :src="`/images/events/${event.image_name}`"
-          alt="torch-img"
-        />
+        <img :src="`/images/events/${event.image_name}`" alt="torch-img" id="event-img">
       </div>
       <p id="event-description" class="mt-4">
         {{ event.description }}
       </p>
       <div id="other-events" class="mt-6">
-        <CardsSwiper />
+        <CardsSwiper/>
       </div>
     </div>
   </section>
@@ -27,28 +23,24 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       event: {}
     }
   },
-  head() {
+  created() {
+    const params = this.$nuxt.$route.params;
+    const events_info = require('../../builds/events-info');
+    const event = events_info.events[params.event];
+    this.event = event;
+  },
+  head () {
     return {
       title: this.event.name,
       meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.event.description
-        }
+        { hid: 'description', name: 'description', content: this.event.description }
       ]
     }
-  },
-  created() {
-    const params = this.$nuxt.$route.params
-    const eventsInfo = require('../../builds/events-info')
-    const event = eventsInfo.events[params.event]
-    this.event = event
   }
 }
 </script>
@@ -84,4 +76,5 @@ export default {
     text-align: center;
   }
 }
+
 </style>

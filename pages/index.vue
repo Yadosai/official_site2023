@@ -9,6 +9,7 @@
 </template>
 
 <script>
+
 import BezierSvg1 from '@/static/images/Curve.svg'
 import BezierSvg2 from '@/static/images/Curve2.svg'
 import Adcard from '@/components/Adcard'
@@ -21,8 +22,18 @@ export default {
     Adcard,
     Hero,
     Main
+  },
+  head () {
+    return {
+      title: 'トップ',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Here is description' }
+      ]
+    }
   }
 }
 </script>
 
-<style></style>
+<style>
+
+</style>
