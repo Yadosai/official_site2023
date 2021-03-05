@@ -1,24 +1,23 @@
 <template>
   <section>
-    <swiper
-      :options="swiperOption">
+    <swiper :options="swiperOption">
       <swiper-slide>
-        <Card image-path="/images/events/torch.jpg" title="トーチトワリング"/>
+        <Card image-path="/images/events/torch.jpg" title="トーチトワリング" />
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/hanabi.jpg" title="花火"/>
+        <Card image-path="/images/events/hanabi.jpg" title="花火" />
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/yukacon.jpg" title="ゆかコン"/>
+        <Card image-path="/images/events/yukacon.jpg" title="ゆかコン" />
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/torch.jpg" title="トーチトワリング"/>
+        <Card image-path="/images/events/torch.jpg" title="トーチトワリング" />
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/hanabi.jpg" title="花火"/>
+        <Card image-path="/images/events/hanabi.jpg" title="花火" />
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/yukacon.jpg" title="ゆかコン"/>
+        <Card image-path="/images/events/yukacon.jpg" title="ゆかコン" />
       </swiper-slide>
     </swiper>
   </section>
@@ -29,13 +28,14 @@ export default {
   data() {
     return {
       swiperOption: {
-        speed: 2000,//スライドの切り替わりスピード
+        speed: 2000, // スライドの切り替わりスピード
         slidesPerView: 1,
-        centeredSlides: true,//スライダーを真ん中に
-        loop: true, //無限ループ
-        autoplay: { //スライドの自動切り替え
-          delay: 5000,//スライドの自動切り替えの秒数
-          disableOnInteraction: false//何らかのアクション後の自動切り替えを再開
+        centeredSlides: true, // スライダーを真ん中に
+        loop: true, // 無限ループ
+        autoplay: {
+          // スライドの自動切り替え
+          delay: 5000, // スライドの自動切り替えの秒数
+          disableOnInteraction: false // 何らかのアクション後の自動切り替えを再開
         },
         breakpoints: {
           // ウインドウサイズが320px以上の時
@@ -60,6 +60,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

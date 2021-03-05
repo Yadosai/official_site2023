@@ -3,10 +3,10 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-2by1">
-          <img :src="imagePath" alt="img">
+          <img :src="imagePath" alt="img" />
         </figure>
       </div>
-      <div class="card-header" v-if="title">
+      <div v-if="title" class="card-header">
         <p class="card-header-title">
           {{ title }}
         </p>
@@ -17,14 +17,21 @@
 
 <script>
 export default {
-  props: [
-    'imagePath',
-    'title',
-    'description'
-  ],
+  props: {
+    imagePath: {
+      type: String,
+      default: ''
+    },
+    title: {
+      type: String,
+      default: ''
+    },
+    description: {
+      type: String,
+      default: ''
+    }
+  }
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
