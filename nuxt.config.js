@@ -61,11 +61,20 @@ export default {
   buildModules: [
   ],
 
+  fontawesome: {
+    icons: {
+      solid: FontAwesome.solid,
+      regular: FontAwesome.regular,
+      brands: FontAwesome.brands
+    }
+  },
+
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/bulma',
     'nuxt-svg-loader'
   ],
+
 
   buildModules: [
     '@nuxtjs/style-resources',

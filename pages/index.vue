@@ -1,9 +1,10 @@
 <template>
   <section>
-    <Hero/>
-    <BezierSvg1/>
-    <BezierSvg2/>
-    <Main/>
+    <Hero />
+    <BezierSvg1 />
+    <BezierSvg2 />
+    <Main />
+    <Adcard/>
   </section>
 </template>
 
