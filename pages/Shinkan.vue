@@ -11,16 +11,16 @@
       <h3 class="is-size-5 has-text-weight-bold" id="Shinkan-subtitle">
         新歓予定
       </h3>
-      <div class="Shinkan-schedule">
+      <div class="columns" id="Shinkan-schedule">
 
-        <p class="Shinkan-schedule-content"> 
+        <p class="column" id="Shinkan-schedule-content"> 
          新入生のみなさん、入学おめでとうございます！🌸<br>
           コロナの影響で入学式が中止になったり、入学早々大変だったと思います。<br>
           「 その分これからの大学生活めいっぱい楽しみたい…」<br>
           そんなあなたにオススメなのがやどかり祭実行委員会！<br>
         </p>  
 
-        <p class="Shinkan-schedule-content">
+        <p class="column" id="Shinkan-schedule-content">
           ＜新歓日程＞<br>
           ※新型コロナウイルスの影響により、日程は未定となっております。決定した際にはHP、Twitter上でお伝えします。ご了承ください。
         </p>
@@ -46,14 +46,14 @@
       <h3 class="is-size-5 has-text-weight-bold" id="Shinkan-subtitle">
         イベント紹介
       </h3>
-      <div class = "Shinkan-events">
+      <div class="columns" id="Shinkan-events">
 
-        <p class="Shinkan-events-content"> 
+        <p class="column" id="Shinkan-events-content"> 
           祭の運営はもちろん、委員内での遊びイベントもたくさんやっています！<br>
           <img src="/images/events/torch.jpg" alt="torch-img" id="event-img">
         </p>  
 
-        <p class="Shinkan-events-content">
+        <p class="column" id="Shinkan-events-content">
           ・春・<br>
           お花見、日の出ツアー、ズームインサタデーツアー、部局対抗ボウリング<br>
           ・夏・<br>
@@ -73,25 +73,24 @@
       <h3 class="is-size-5 has-text-weight-bold" id="Shinkan-subtitle">
         部局紹介
       </h3>
-      <div class="Shinkan-department">
+      <div class= "columns" id="Shinkan-department">
 
-        <p class="Shinkan-department-content"> 
+        <p class="column" id="Shinkan-department-content"> 
           ＜全体装飾部局＞<br>
-          ・やること<br>
-          配色、文章、レスポンシブ化<br>
+          通称全装！お祭りの様々な装飾をするのが仕事です 明るくて面白くて可愛い、かっこいい先輩がいっぱいで皆とっっても仲良しです 美術が得意じゃない…って子も大丈夫！！そんな人も楽しく作業できるのが全体装飾部局です<br><br>
           ＜総務書記部局＞<br>
-          <br>    
+          通称総務！実行計画書やパンフレットを作製するよ！ 総務の魅力は祭り当日に浴衣を着れること・トーチをできること また、他部局のお仕事を手伝うこともたりいろんな人とも仲良くなれちゃいます！ 縦のつながりも強く、可愛い、かっこいい、個性的！？わいわい楽しい部局です！<br> <br>   
           ＜宣伝部局＞<br>
-          <br>
+          やど祭の人間広告塔、宣伝部局です！ 広報だけでなく、トーチもやっちゃいます めっちゃ個性豊か！面白い！楽しい！人たちが集まった部局です。 そしてとにかく仲が良い！！みんなの誕生日をお祝いしたり、遊んだり、、この前も熱海旅行しました。<br><br>
         </p>  
 
-        <p class="Shinkan-department-content">
+        <p class = "column" id="Shinkan-department-content">
           ＜設備部局＞<br>
-          <br>
+          やど祭の縁の下の力持ち！ 通称設備！！ ステージを設置したり、提灯や模擬店に電気を通したり……2年生になれば軽トラ乗り放題かも！？ 他部局と協力することが多いので、仲良くなりやすいのも魅力です やりがいを求めるなら設備部局！！ 仲良くマイペースにやってるのでぜひどーぞ<br><br>
           ＜模擬店部局＞<br>
-          <br>    
+          通称模擬！ 学生が運営する模擬店を管理する部局です。祭の中心部分を担う重要な部局です。 祭で使う備品やガス、衛生面を管理していきます。 新入生と1番関われて楽しいですよ。 イケメンや美女だけでなく、皆芸を持っていて笑顔が絶えない部局です！<br><br>
           ＜企画部局＞<br>
-          <br>
+          やどかり祭のメインであるゆかたコンテスト、縁日、御輿などのイベントの企画、運営する部局です！ 一緒に作業していく中でとても仲よくなります笑顔 誕生日会や自炊会をしたり旅行に行ったりと、他学類の友達を作りたかったら企画部局に入れば間違いなし！<br><br>
         </p>
            
       </div>
@@ -150,33 +149,29 @@ export default {
 }
 
 /* 左右に要素分けるならこれ踏襲する */
-.Shinkan-schedule{
-  display: flex;  
-  .Shinkan-schedule-content{
-    width: 50%;
+ 
+  #Shinkan-schedule-content{ 
     margin-bottom: 20px;
+    margin-right: 20px;
   }
-}
 
-.Shinkan-events{
-  display: flex;
-  .Shinkan-events-content{
-   width: 50%;
+
+
+  #Shinkan-events-content{
    margin-bottom: 20px;
+   margin-right: 20px;
     #event-img {
       /*height: 100%;*/
       width: 80%;
     }   
    }
- }
+ 
 
-.Shinkan-department{
-  display: flex;
-  .Shinkan-department-content{
-    width: 50%; 
-    margin-bottom: 20px;
+
+  #Shinkan-department-content{
+    margin-right: 20px;
   }
-}
+
 
 
 
