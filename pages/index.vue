@@ -1,5 +1,6 @@
 <template>
   <section>
+<<<<<<< HEAD
     <div class="hero-index">
       <Hero/>
       <!--<div class="curve-hero">
@@ -7,6 +8,13 @@
       </div>-->
     </div>
       <BezierSvg2/>
+=======
+    <Hero />
+    <BezierSvg1 />
+    <BezierSvg2 />
+    <Main />
+    <Adcard/>
+>>>>>>> develop
   </section>
 </template>
 
@@ -16,12 +24,22 @@
 import BezierSvg2 from '@/static/images/Curve2.svg'
 import Adcard from '@/components/Adcard'
 import Hero from '@/components/Hero'
+import Main from '@/components/Main'
 export default {
   components: {
     /*BezierSvg1,*/
     BezierSvg2,
     Adcard,
-    Hero
+    Hero,
+    Main
+  },
+  head () {
+    return {
+      title: 'トップ',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Here is description' }
+      ]
+    }
   }
 }
 </script>

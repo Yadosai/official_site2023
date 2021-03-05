@@ -1,8 +1,14 @@
+const solid = [
+    'faCircle',
+    'faEnvelope'
+]
 
-const solid = []
+const regular = [
+    'faCircle'
+]
 
-const regular = []
-
-const brands = []
+const brands = [
+    "faTwitter",
+]
 
 export { solid, regular, brands }
