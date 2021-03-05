@@ -2,24 +2,22 @@
   <section>
     <div class="row justify-content-center">
       <div class="box">
-        <a href="https://yadosai.com" target="_blank">
-          <img
-            src="https://bulma.io/images/placeholders/640x480.png"
-            alt="sponsor"
-            class="web-ad-content"
-          />
-        </a>
+         <a href="https://yadosai.com" target="_blank">
+             <img src="https://bulma.io/images/placeholders/640x480.png" alt="sponsor" class="web-ad-content">
+         </a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {}
+export default {
+  
+}
 </script>
 
 <style lang="scss">
-.row {
+.row{
   display: flex;
   flex-wrap: wrap;
 }
