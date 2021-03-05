@@ -27,24 +27,28 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       event: {}
     }
   },
-  created() {
-    const params = this.$nuxt.$route.params;
-    const events_info = require('../../builds/events-info');
-    const event = events_info.events[params.event];
-    this.event = event;
-  },
-  head () {
+  head() {
     return {
       title: this.event.name,
       meta: [
-        { hid: 'description', name: 'description', content: this.event.description }
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.event.description
+        }
       ]
     }
+  },
+  created() {
+    const params = this.$nuxt.$route.params
+    const eventsInfo = require('../../builds/events-info')
+    const event = eventsInfo.events[params.event]
+    this.event = event
   }
 }
 </script>
