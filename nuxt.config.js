@@ -57,18 +57,6 @@ export default {
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
-  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-  ],
-
-  fontawesome: {
-    icons: {
-      solid: FontAwesome.solid,
-      regular: FontAwesome.regular,
-      brands: FontAwesome.brands
-    }
-  },
-
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/bulma',
@@ -78,6 +66,7 @@ export default {
 
   buildModules: [
     '@nuxtjs/style-resources',
+    '@nuxtjs/eslint-module',
     ['@nuxtjs/fontawesome', { component: 'fa', suffix: true }],
   ],
 
