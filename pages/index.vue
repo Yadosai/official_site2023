@@ -20,6 +20,14 @@ export default {
     Adcard,
     Hero,
     Main
+  },
+  head () {
+    return {
+      title: 'トップ',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Here is description' }
+      ]
+    }
   }
 }
 </script>
