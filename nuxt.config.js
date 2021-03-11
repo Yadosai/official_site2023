@@ -55,7 +55,7 @@ export default {
   components: true,
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/bulma', 'nuxt-svg-loader'],
+  modules: ['nuxt-svg-loader'],
 
   buildModules: [
     '@nuxtjs/style-resources',
@@ -81,7 +81,11 @@ export default {
   },
 
   styleResources: {
-    scss: ['@/assets/scss/_mixins.scss', '@/assets/scss/_variables.scss']
+    scss: [
+      '@/assets/scss/_mixins.scss',
+      '@/assets/scss/_variables.scss',
+      '@/assets/scss/_override.scss'
+    ]
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
