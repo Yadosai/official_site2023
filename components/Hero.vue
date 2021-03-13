@@ -19,15 +19,6 @@ export default {
 </script>
 
 <style lang="scss">
-/*
-.hero {
-    background-image: url(/images/info/sample2.jpg);
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-*/
 
 .hero-img{
     background-image: url(/images/info/sample2.jpg);
@@ -48,16 +39,4 @@ export default {
     color: white;
     text-align: center;
 }
-// .title {
-//     position: absolute;
-//     display: block;
-//     top: 50%;
-//     left: 50%;
-//     -ms-transform: translate(-50%, -50%);
-//     -webkit-transform: translate(-50%, -50%);
-//     transform: translate(-50%, -50%);
-//     color: $BLUE;
-//     margin: 0;
-//     padding: 0;
-// }
 </style>

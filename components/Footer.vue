@@ -1,5 +1,8 @@
 <template>
     <section>
+        <div class="footer-curve">
+        <BezierSvg2 />
+        </div>
         <div class="thefooter">
             <div class="container">
                 <div class="columns">
@@ -53,16 +56,24 @@ Google アナリティクスではCookieを使用し、個人を特定する情�
 </template>
 
 <script>
+import BezierSvg2 from '@/static/images/Curve2.svg'
 export default {
+    components: {
+        BezierSvg2,
+    }
 }
 </script>
 
 <style lang="scss" scoped>
+.footer-curve{
+    background-color: $BLACK;
+}
 .thefooter{
     background-color: $BLACK;
     background-size: cover;
     color: $WHITE;
     padding: 1em 5em 2em;
+
 }
 
 .contents{
