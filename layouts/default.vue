@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrap">
     <TopBar />
     <Nuxt />
     <Footer />
@@ -21,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.wrap {
+  overflow: hidden;
+}
+</style>

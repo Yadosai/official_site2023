@@ -1,5 +1,8 @@
 <template>
   <section>
+    <div class="footer-curve">
+      <BezierSvg2 />
+    </div>
     <div class="thefooter">
       <div class="container">
         <div class="columns">
@@ -45,13 +48,14 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="content has-text-centered">
-          <p>
+      <div class="columns">
+        <div class="column">
+          <p class="has-text-centered p-4">
             ©第47回宿舎祭実行委員会<br />
             当サイトでは、アクセスログの収集・解析にGoogle
-            アナリティクスを使用しております。 Google
-            アナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。また、収集されるログはGoogleのプライバシーポリシーに基づいて管理されます。
+            アナリティクスを使用しております。<br />
+            GoogleアナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。<br />
+            また、収集されるログはGoogleのプライバシーポリシーに基づいて管理されます。
           </p>
         </div>
       </div>
@@ -60,10 +64,18 @@
 </template>
 
 <script>
-export default {}
+import BezierSvg2 from '@/static/images/Curve2.svg'
+export default {
+  components: {
+    BezierSvg2
+  }
+}
 </script>
 
 <style lang="scss" scoped>
+.footer-curve {
+  background-color: $BLACK;
+}
 .thefooter {
   background-color: $BLACK;
   background-size: cover;
