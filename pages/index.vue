@@ -7,28 +7,28 @@
 </template>
 
 <script>
-import Adcard from "@/components/Adcard";
-import Hero from "@/components/Hero";
-import Main from "@/components/Main";
+import Adcard from '@/components/Adcard'
+import Hero from '@/components/Hero'
+import Main from '@/components/Main'
 export default {
   components: {
     Adcard,
     Hero,
-    Main,
+    Main
   },
   head() {
     return {
-      title: "トップ",
+      title: 'トップ',
       meta: [
         {
-          hid: "description",
-          name: "description",
-          content: "Here is description",
-        },
-      ],
-    };
-  },
-};
+          hid: 'description',
+          name: 'description',
+          content: 'Here is description'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
