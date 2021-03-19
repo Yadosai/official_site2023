@@ -2,17 +2,17 @@
   <section>
     <Hero />
     <Main />
-    <Adcard />
+    <!-- <Adcard /> -->
   </section>
 </template>
 
 <script>
-import Adcard from '@/components/Adcard'
+/* import Adcard from '@/components/Adcard' */
 import Hero from '@/components/Hero'
 import Main from '@/components/Main'
 export default {
   components: {
-    Adcard,
+    /* Adcard, */
     Hero,
     Main
   },
@@ -31,11 +31,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-/*
-.curve-hero{
-  position: absolute;
-  top: 80vh;
-}
-*/
-</style>
+<style lang="scss" scoped></style>
