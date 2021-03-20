@@ -1,7 +1,13 @@
 <template>
   <section class="hero-img">
     <div class="hero-img-body">
-      <h1 class="title">やどかり祭</h1>
+      <h1 class="title">
+        <img
+          class="title"
+          src="images/main/logo2.png"
+          alt="やどかり祭"
+        /><!-- やどかり祭 -->
+      </h1>
     </div>
     <BezierSvg1 />
   </section>
@@ -31,9 +37,14 @@ export default {
   flex-grow: 1;
 }
 .title {
-  position: relative;
+  position: absolute;
   top: 50%;
-  color: white;
-  text-align: center;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  margin: 0;
+  padding: 0;
 }
 </style>
