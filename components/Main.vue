@@ -49,7 +49,7 @@ export default {}
 
 <style lang="scss" scoped>
 #events-wrap {
-  background-color: #d4eaf3;
+  background-color: hsl(191, 85%, 73%);
 }
 
 #cards-wrap {
