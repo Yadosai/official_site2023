@@ -28,7 +28,7 @@
         </div>
       </div> -->
     </div>
-    <div id="sponsors-wrap" class="p-6">
+    <!-- <div id="sponsors-wrap" class="p-6">
       <div class="columns">
         <div class="column">
           <Card image-path="/images/ad/ad-offer.svg" />
@@ -40,7 +40,7 @@
           <Card image-path="/images/ad/ad2.svg" />
         </div>
       </div>
-    </div>
+    </div> -->
   </main>
 </template>
 
