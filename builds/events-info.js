@@ -9,7 +9,8 @@ const events = {
     name: 'ゆかコン',
     actor: 'Here is actor',
     image_name: 'yukacon.jpg',
-    description: 'Here is description'
+    description:
+      '本祭の最後に有志の一年生グループがメインステージでパフォーマンスをします！ゆかこん嬢を中心に、それぞれが工夫を凝らしたステージは毎年大盛況。やどかり祭を締めくくる、最後の一大企画...毎年大きな盛り上がりを見せています！'
   },
   hanabi: {
     name: '花火',
