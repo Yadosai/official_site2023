@@ -18,7 +18,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero-img {
-  background-image: url(/images/info/sample2.jpg);
+  background-image: url(/images/main/hero-image.png);
   height: 100vh;
   position: relative;
   background-repeat: no-repeat;
