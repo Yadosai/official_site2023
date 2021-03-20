@@ -42,7 +42,7 @@ export default {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   width: 50vw;
   margin: 0;
   padding: 0;
