@@ -1,19 +1,34 @@
 <template>
-  <div>
-    <v-app>
-      <v-main>
-        <Header/>
-        <SubHeader/>
-        <Main/>
-      </v-main>
-    </v-app>
-  </div>
+  <section>
+    <Hero />
+    <Main />
+    <!-- <Adcard /> -->
+  </section>
 </template>
 
 <script>
-export default {}
+/* import Adcard from '@/components/Adcard' */
+import Hero from '@/components/Hero'
+import Main from '@/components/Main'
+export default {
+  components: {
+    /* Adcard, */
+    Hero,
+    Main
+  },
+  head() {
+    return {
+      title: 'トップ',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Here is description'
+        }
+      ]
+    }
+  }
+}
 </script>
 
-<style>
-
-</style>
+<style lang="scss" scoped></style>
