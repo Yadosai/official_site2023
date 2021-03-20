@@ -50,7 +50,7 @@ export default {}
 
 <style lang="scss" scoped>
 #events-wrap {
-  background-color: hsl(191, 85%, 73%);
+  background-color: #89cfeb;
 }
 
 #cards-wrap {
@@ -58,6 +58,6 @@ export default {}
 }
 
 #sponsors-wrap {
-  background-color: #97c2eb;
+  background-color: #87ceeb;
 }
 </style>
