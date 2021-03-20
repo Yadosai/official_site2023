@@ -54,7 +54,7 @@ export default {}
 }
 
 #cards-wrap {
-  background-color: #87ceeb;
+  background-color: #97c2eb;
 }
 
 #sponsors-wrap {
