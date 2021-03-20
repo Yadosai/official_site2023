@@ -6,16 +6,17 @@
     <div id="cards-wrap" class="p-6">
       <div class="columns">
         <div class="column">
-          <Card image-path="/images/info/sample1.jpg" title="やどかり祭とは" />
+          <Card image-path="/images/info/sample3.jpeg" title="やどかり祭とは" />
         </div>
         <div class="column">
           <Card image-path="/images/info/sample2.jpg" title="新歓について" />
         </div>
         <div class="column">
-          <Card image-path="/images/info/sample1.jpg" title="開催状況" />
+          <Card image-path="/images/info/sample1.jpg" title="ニュース" />
         </div>
       </div>
-      <div class="columns">
+
+      <!-- <div class="columns">
         <div class="column">
           <Card image-path="/images/info/sample1.jpg" title="アクセス" />
         </div>
@@ -25,7 +26,7 @@
         <div class="column">
           <Card image-path="/images/info/sample1.jpg" title="ご支援・ご協賛" />
         </div>
-      </div>
+      </div> -->
     </div>
     <div id="sponsors-wrap" class="p-6">
       <div class="columns">
