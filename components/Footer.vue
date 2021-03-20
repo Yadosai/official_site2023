@@ -14,7 +14,7 @@
               <p class="item">トップ</p>
               <div class="line">
                 <p>
-                  こんな感じ&nbsp;アクセス&nbsp;こんな感じ&nbsp;どうかな&nbsp;どうかな&nbsp;どうかな
+                  ゆかたコンテスト&nbsp;神輿&nbsp;トーチトワリング&nbsp;火文字&nbsp;大学生クイズ&nbsp;野外ライブ
                 </p>
               </div>
             </div>
@@ -23,7 +23,7 @@
               <p class="item">お祭り情報</p>
               <div class="line">
                 <p>
-                  アクセス&nbsp;マップ&nbsp;タイムテーブル&nbsp;模擬店&nbsp;企画&nbsp;浴衣コンテスト
+                  やどかり祭とは&nbsp;新歓について&nbsp;ニュース&nbsp;過去の祭
                 </p>
               </div>
             </div>
