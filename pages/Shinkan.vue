@@ -139,9 +139,7 @@ export default {}
   #Shinkan-img-wrap {
     text-align: center;
     width: 100%;
-    /*height: 400px;*/
     #Shinkan-img {
-      /*height: 100%;*/
       width: 100vh;
     }
   }
@@ -166,7 +164,6 @@ export default {}
   margin-bottom: 20px;
   margin-right: 20px;
   #event-img {
-    /*height: 100%;*/
     width: 80%;
   }
 }

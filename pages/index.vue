@@ -2,17 +2,14 @@
   <section>
     <Hero />
     <Main />
-    <!-- <Adcard /> -->
   </section>
 </template>
 
 <script>
-/* import Adcard from '@/components/Adcard' */
 import Hero from '@/components/Hero'
 import Main from '@/components/Main'
 export default {
   components: {
-    /* Adcard, */
     Hero,
     Main
   },
