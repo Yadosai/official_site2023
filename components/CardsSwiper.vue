@@ -1,24 +1,41 @@
 <template>
   <section>
-    <swiper
-      :options="swiperOption">
+    <swiper :options="swiperOption">
       <swiper-slide>
-        <Card image-path="/images/events/torch.jpg" title="トーチトワリング"/>
+        <nuxt-link to="/events/torch">
+          <Card
+            image-path="/images/events/torch.jpg"
+            title="トーチトワリング" /></nuxt-link
+      ></swiper-slide>
+      <swiper-slide>
+        <nuxt-link to="/events/yukacon">
+          <Card image-path="/images/events/yukacon.jpg" title="ゆかコン" />
+        </nuxt-link>
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/hanabi.jpg" title="花火"/>
+        <nuxt-link to="/events/mikoshi">
+          <Card image-path="/images/events/mikoshi.jpeg" title="神輿" />
+        </nuxt-link>
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/yukacon.jpg" title="ゆかコン"/>
+        <nuxt-link to="/events/himoji">
+          <Card image-path="/images/events/himoji.jpeg" title="火文字" />
+        </nuxt-link>
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/torch.jpg" title="トーチトワリング"/>
+        <nuxt-link to="/events/dance">
+          <Card image-path="/images/events/dance.jpeg" title="ダンス" />
+        </nuxt-link>
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/hanabi.jpg" title="花火"/>
+        <nuxt-link to="/events/quiz">
+          <Card image-path="/images/events/quiz.png" title="大学生クイズ" />
+        </nuxt-link>
       </swiper-slide>
       <swiper-slide>
-        <Card image-path="/images/events/yukacon.jpg" title="ゆかコン"/>
+        <nuxt-link to="/events/live">
+          <Card image-path="/images/events/live.png" title="野外ライブ" />
+        </nuxt-link>
       </swiper-slide>
     </swiper>
   </section>
@@ -29,13 +46,14 @@ export default {
   data() {
     return {
       swiperOption: {
-        speed: 2000,//スライドの切り替わりスピード
+        speed: 2000, // スライドの切り替わりスピード
         slidesPerView: 1,
-        centeredSlides: true,//スライダーを真ん中に
-        loop: true, //無限ループ
-        autoplay: { //スライドの自動切り替え
-          delay: 5000,//スライドの自動切り替えの秒数
-          disableOnInteraction: false//何らかのアクション後の自動切り替えを再開
+        centeredSlides: true, // スライダーを真ん中に
+        loop: true, // 無限ループ
+        autoplay: {
+          // スライドの自動切り替え
+          delay: 5000, // スライドの自動切り替えの秒数
+          disableOnInteraction: false // 何らかのアクション後の自動切り替えを再開
         },
         breakpoints: {
           // ウインドウサイズが320px以上の時
@@ -60,6 +78,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
