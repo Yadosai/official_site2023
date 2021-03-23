@@ -2,11 +2,7 @@
   <section class="hero-img">
     <div class="hero-img-body">
       <h1 class="title">
-        <img
-          class="title"
-          src="images/main/logo2.png"
-          alt="やどかり祭"
-        /><!-- やどかり祭 -->
+        <img class="title" src="images/main/logo2.png" alt="やどかり祭" />
       </h1>
     </div>
     <BezierSvg1 />
