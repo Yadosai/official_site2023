@@ -24,8 +24,12 @@
 
     <div id="navbar" class="navbar-menu" :class="{ 'is-active': isMenuActive }">
       <div class="navbar-end">
-        <nuxt-link to="/info" class="navbar-item">お知らせ</nuxt-link>
-        <nuxt-link to="/shinkan" class="navbar-item">新歓情報</nuxt-link>
+        <!-- <nuxt-link to="/info" class="navbar-item"> -->
+        <div class="navbar-item navlink">お知らせ</div>
+        <!-- </nuxt-link>-->
+        <!-- <nuxt-link to="/shinkan" class="navbar-item">-->
+        <div class="navbar-item navlink">新歓情報</div>
+        <!-- </nuxt-link>-->
       </div>
     </div>
   </nav>
@@ -55,6 +59,11 @@ export default {
 .navbar {
   background-color: $BLACK;
 }
+/* リンクが張れるようになったら、ここを消す*/
+.navlink {
+  color: #757373;
+}
+/* リンクが張れるようになったら、ここを消す*/
 .logo {
   /*height: 90px;
   width: 170px;*/
