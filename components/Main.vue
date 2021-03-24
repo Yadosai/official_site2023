@@ -6,13 +6,22 @@
     <div id="cards-wrap" class="p-6">
       <div class="columns">
         <div class="column">
-          <Card image-path="/images/info/sample3.jpeg" title="やどかり祭とは" />
+          <Card
+            image-path="/images/info/sample3.jpeg"
+            title="やどかり祭とは -現在準備中-"
+          />
         </div>
         <div class="column">
-          <Card image-path="/images/info/sample2.jpg" title="新歓について" />
+          <Card
+            image-path="/images/info/sample2.jpg"
+            title="新歓について -現在準備中-"
+          />
         </div>
         <div class="column">
-          <Card image-path="/images/info/sample1.jpg" title="ニュース" />
+          <Card
+            image-path="/images/info/sample1.jpg"
+            title="ニュース  -現在準備中-"
+          />
         </div>
       </div>
 
