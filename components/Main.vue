@@ -29,7 +29,7 @@ export default {}
 }
 
 #cards-wrap {
-  background-color: #97c2eb;
+  background-color: #89cfeb;
 }
 
 #sponsors-wrap {

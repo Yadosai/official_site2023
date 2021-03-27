@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-image">
         <figure class="image is-2by1">
-          <img :src="imagePath" alt="img" />
+          <img :src="imagePath" class="image-fix" alt="img" />
         </figure>
       </div>
       <div v-if="title" class="card-header">
@@ -34,4 +34,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss">
+.image-fix {
+ object-fit: cover;
+}
+</style>
