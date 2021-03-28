@@ -1,16 +1,9 @@
 <template>
   <section>
-    <div class="card">
-      <div class="card-image">
-        <figure class="image is-2by1">
+    <div class="box">
+        <figure class="image is-5by3">
           <img :src="imagePath" class="ratio-fix" alt="img" />
         </figure>
-      </div>
-      <div v-if="title" class="card-header">
-        <p class="card-header-title">
-          {{ title }}
-        </p>
-      </div>
     </div>
   </section>
 </template>
@@ -35,6 +28,9 @@ export default {
 </script>
 
 <style lang="scss">
+.box {
+   padding: 0; 
+}
 .ratio-fix {
  object-fit: cover;
 }
