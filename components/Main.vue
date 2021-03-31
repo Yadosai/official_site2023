@@ -34,6 +34,10 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
+main {
+  background-color: #89cfeb;
+  padding: 3em;
+}
 #events-wrap {
   background-color: #89cfeb;
 }
