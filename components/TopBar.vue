@@ -27,9 +27,9 @@
         <!-- <nuxt-link to="/info" class="navbar-item"> -->
         <div class="navbar-item navlink">お知らせ</div>
         <!-- </nuxt-link>-->
-        <!-- <nuxt-link to="/shinkan" class="navbar-item">-->
-        <div class="navbar-item navlink">新歓情報</div>
-        <!-- </nuxt-link>-->
+        <nuxt-link to="/shinkan" class="navbar-item">
+          <!--<div class="navbar-item navlink"> -->新歓情報<!-- </div>-->
+        </nuxt-link>
       </div>
     </div>
   </nav>
