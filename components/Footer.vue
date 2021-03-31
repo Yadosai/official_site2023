@@ -93,7 +93,7 @@ export default {
   display: flex;
   p {
     margin: 1em 1em;
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 .blank {
