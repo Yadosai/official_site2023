@@ -36,7 +36,7 @@ export default {}
 <style lang="scss" scoped>
 main {
   background-color: #89cfeb;
-  padding: 3em;
+  padding: 3rem;
 }
 #events-wrap {
   background-color: #89cfeb;
