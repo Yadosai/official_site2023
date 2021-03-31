@@ -55,7 +55,13 @@ export default {
   components: true,
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['nuxt-svg-loader'],
+  modules: ['nuxt-svg-loader', 'nuxt-webfontloader'],
+
+  webfontloader: {
+    google: {
+      families: ['Lato:400,700', 'Noto+Sans+JP:400,700']
+    }
+  },
 
   buildModules: [
     '@nuxtjs/style-resources',

@@ -75,7 +75,7 @@ export default {
   }
 
   #event-description {
-    text-align: center;
+    text-align: left;
   }
 
   #other-events {

@@ -30,7 +30,7 @@
           </div>
           <div class="column">
             <div class="column-left">
-              <div class="social-icons">
+              <div class="social-icons" @click="externalLink">
                 <span class="fa-stack fa-lg social-icon">
                   <fa-icon :icon="['far', 'circle']" class="fa-stack-2x" />
                   <fa-icon :icon="['fab', 'twitter']" class="fa-stack-1x" />
@@ -68,6 +68,12 @@ import BezierSvg2 from '@/static/images/Curve2.svg'
 export default {
   components: {
     BezierSvg2
+  },
+  methods: {
+    externalLink() {
+      const url = 'https://twitter.com/yado_shinkan47'
+      window.open(url, '_blank')
+    }
   }
 }
 </script>
@@ -120,5 +126,10 @@ export default {
 }
 .social-icon {
   font-size: 4em;
+}
+
+a:link {
+  text-decoration: none !important;
+  color: #WHITE !important;
 }
 </style>
