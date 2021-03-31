@@ -3,37 +3,37 @@
     <swiper :options="swiperOption">
       <swiper-slide>
         <nuxt-link to="/events/torch">
-          <KikakuCard image-path="/images/events/torch.jpg" title="トーチトワリング" />
+          <Card image-path="/images/events/torch.jpg" title="トーチトワリング" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/yukacon">
-          <KikakuCard image-path="/images/events/yukacon.jpg" title="ゆかコン" />
+          <Card image-path="/images/events/yukacon.jpg" title="ゆかコン" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/mikoshi">
-          <KikakuCard image-path="/images/events/mikoshi.jpeg" title="神輿" />
+          <Card image-path="/images/events/mikoshi.jpeg" title="神輿" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/himoji">
-          <KikakuCard image-path="/images/events/himoji.jpeg" title="火文字" />
+          <Card image-path="/images/events/himoji.jpeg" title="火文字" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/dance">
-          <KikakuCard image-path="/images/events/dance.jpeg" title="ダンス" />
+          <Card image-path="/images/events/dance.jpeg" title="ダンス" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/quiz">
-          <KikakuCard image-path="/images/events/quiz.png" title="大学生クイズ" />
+          <Card image-path="/images/events/quiz.png" title="大学生クイズ" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/live">
-          <KikakuCard image-path="/images/events/live.png" title="野外ライブ" />
+          <Card image-path="/images/events/live.png" title="野外ライブ" />
         </nuxt-link>
       </swiper-slide>
     <div slot="pagination" class="swiper-pagination"></div>
