@@ -20,7 +20,7 @@ const events = {
     description: 'ひょうしょうしき'
   },
   mikoshi: {
-    name: '神輿',
+    name: '御輿',
     actor: '1年生向け企画',
     image_name: 'mikoshi.jpeg',
     description:
