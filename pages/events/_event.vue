@@ -69,15 +69,13 @@ export default {
   #event-img-wrap {
     text-align: center;
     width: 100%;
-    /*height: 400px;*/
     #event-img {
-      /*height: 100%;*/
       width: 100vh;
     }
   }
 
   #event-description {
-    text-align: center;
+    text-align: left;
   }
 
   #other-events {

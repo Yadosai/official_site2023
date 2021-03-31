@@ -1,46 +1,31 @@
 <template>
   <main>
+    <div class="event-h1">企画紹介</div>
     <div id="events-wrap" class="p-6">
       <CardsSwiper />
     </div>
     <div id="cards-wrap" class="p-6">
       <div class="columns">
         <div class="column">
-          <Card image-path="/images/info/sample3.jpeg" title="やどかり祭とは" />
+          <Card
+            image-path="/images/info/sample3.jpeg"
+            title="やどかり祭とは -現在準備中-"
+          />
         </div>
         <div class="column">
-          <Card image-path="/images/info/sample2.jpg" title="新歓について" />
+          <Card
+            image-path="/images/info/sample2.jpg"
+            title="新歓について -現在準備中-"
+          />
         </div>
         <div class="column">
-          <Card image-path="/images/info/sample1.jpg" title="ニュース" />
+          <Card
+            image-path="/images/info/sample1.jpg"
+            title="ニュース  -現在準備中-"
+          />
         </div>
       </div>
-
-      <!-- <div class="columns">
-        <div class="column">
-          <Card image-path="/images/info/sample1.jpg" title="アクセス" />
-        </div>
-        <div class="column">
-          <Card image-path="/images/info/sample2.jpg" title="お知らせ" />
-        </div>
-        <div class="column">
-          <Card image-path="/images/info/sample1.jpg" title="ご支援・ご協賛" />
-        </div>
-      </div> -->
     </div>
-    <!-- <div id="sponsors-wrap" class="p-6">
-      <div class="columns">
-        <div class="column">
-          <Card image-path="/images/ad/ad-offer.svg" />
-        </div>
-        <div class="column">
-          <Card image-path="/images/ad/ad1.svg" />
-        </div>
-        <div class="column">
-          <Card image-path="/images/ad/ad2.svg" />
-        </div>
-      </div>
-    </div> -->
   </main>
 </template>
 
@@ -52,9 +37,15 @@ export default {}
 #events-wrap {
   background-color: #89cfeb;
 }
+.event-h1 {
+  padding-top: 1rem;
+  margin-bottom: -3rem;
+  font-size: 2rem !important;
+  background-color: #89cfeb;
+}
 
 #cards-wrap {
-  background-color: #97c2eb;
+  background-color: #89cfeb;
 }
 
 #sponsors-wrap {
