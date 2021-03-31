@@ -24,7 +24,6 @@ export default {
 <style lang="scss">
 
 .Jumbotron {
-    padding:1.5rem;
     background-color: #89cfeb;
     border-color: white;
 }
