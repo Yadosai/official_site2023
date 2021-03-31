@@ -1,5 +1,6 @@
 <template>
   <main>
+    <div class="event-h1">企画紹介</div>
     <div id="events-wrap" class="p-6">
       <CardsSwiper />
     </div>
@@ -59,6 +60,12 @@ export default {}
 
 <style lang="scss" scoped>
 #events-wrap {
+  background-color: #89cfeb;
+}
+.event-h1 {
+  padding-top: 1rem;
+  margin-bottom: -3rem;
+  font-size: 2rem !important;
   background-color: #89cfeb;
 }
 
