@@ -1,14 +1,14 @@
 <template>
   <main>
     <div class="news">
-    <Jumbotron />
+      <Jumbotron />
+    </div>
+    <div class="shinkan-link">
+      <LargeButton />
     </div>
     <div class="event-h1">企画紹介</div>
     <div id="events-wrap" class="p-6">
       <CardsSwiper />
-    </div>
-    <div class="shinkan-link">
-    <LargeButton />
     </div>
   </main>
 </template>
@@ -17,10 +17,10 @@
 import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 export default {
-  components: { 
+  components: {
     Jumbotron,
     LargeButton
-  },
+  }
 }
 </script>
 
@@ -34,7 +34,7 @@ main {
 }
 .event-h1 {
   padding-top: 1rem;
-  margin-bottom: -3rem;
+  margin-bottom: -1rem;
   font-size: 2rem !important;
   background-color: #89cfeb;
 }
@@ -45,6 +45,7 @@ main {
 
 #shinkan-link {
   background-color: #89cfeb;
+  padding: 2rem;
 }
 
 #sponsors-wrap {
