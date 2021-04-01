@@ -3,10 +3,9 @@
     <swiper :options="swiperOption">
       <swiper-slide>
         <nuxt-link to="/events/torch">
-          <Card
-            image-path="/images/events/torch.jpg"
-            title="トーチトワリング" /></nuxt-link
-      ></swiper-slide>
+          <Card image-path="/images/events/torch.jpg" title="トーチトワリング" />
+        </nuxt-link>
+      </swiper-slide>
       <swiper-slide>
         <nuxt-link to="/events/yukacon">
           <Card image-path="/images/events/yukacon.jpg" title="ゆかコン" />
@@ -37,6 +36,7 @@
           <Card image-path="/images/events/live.png" title="野外ライブ" />
         </nuxt-link>
       </swiper-slide>
+    <div slot="pagination" class="swiper-pagination"></div>
     </swiper>
   </section>
 </template>
@@ -54,6 +54,10 @@ export default {
           // スライドの自動切り替え
           delay: 5000, // スライドの自動切り替えの秒数
           disableOnInteraction: false // 何らかのアクション後の自動切り替えを再開
+        },
+        pagination: { // ページネーション設定
+          el: '.swiper-pagination',
+          clickable: true
         },
         breakpoints: {
           // ウインドウサイズが320px以上の時

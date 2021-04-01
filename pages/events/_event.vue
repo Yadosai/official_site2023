@@ -18,7 +18,9 @@
       <p id="event-description" class="mt-4">
         {{ event.description }}
       </p>
-      <div id="other-events" class="mt-6">
+    </div>
+    <div>
+      <div id="other-event-wrap" class="p-6">
         <CardsSwiper />
       </div>
     </div>
@@ -77,9 +79,9 @@ export default {
   #event-description {
     text-align: left;
   }
-
-  #other-events {
-    text-align: center;
-  }
+}
+#other-event-wrap {
+  text-align: center;
+  background-color: #89cfeb;
 }
 </style>
