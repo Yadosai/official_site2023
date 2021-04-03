@@ -3,6 +3,10 @@
     <div class="news">
       <Jumbotron />
     </div>
+    <div class="band">
+      <SubHeader />
+      <SubsubHeader />
+    </div>
     <div class="shinkan-link">
       <LargeButton />
     </div>
@@ -16,10 +20,14 @@
 <script>
 import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
+import SubHeader from '@/components/SubHeader'
+import SubsubHeader from '@/components/SubsubHeader'
 export default {
   components: {
     Jumbotron,
-    LargeButton
+    LargeButton,
+    SubHeader,
+    SubsubHeader
   }
 }
 </script>
@@ -28,6 +36,9 @@ export default {
 main {
   background-color: #89cfeb;
   padding: 3rem;
+}
+.band {
+  padding: 5% 0;
 }
 #events-wrap {
   background-color: #89cfeb;

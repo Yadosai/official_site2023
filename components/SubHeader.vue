@@ -11,7 +11,6 @@ export default {}
 <style lang="scss" scoped>
 .yadosaitoha_logo {
   font-size: 4vw;
-  font-family: arial;
   color: white;
   padding: 20px;
   background: linear-gradient(
