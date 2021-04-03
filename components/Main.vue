@@ -11,7 +11,7 @@
       <LargeButton />
     </div>
     <div class="event-h1">企画紹介</div>
-    <div id="events-wrap" class="p-6">
+    <div id="events-wrap">
       <CardsSwiper />
     </div>
   </main>
@@ -42,11 +42,12 @@ main {
 }
 #events-wrap {
   background-color: #89cfeb;
+  padding: 3vh;
 }
 .event-h1 {
   padding-top: 1rem;
   margin-bottom: -1rem;
-  font-size: 2rem !important;
+  font-size: 3vw !important;
   background-color: #89cfeb;
 }
 
