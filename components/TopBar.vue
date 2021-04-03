@@ -1,19 +1,35 @@
 <template>
-  <nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
-      <nuxt-link to="/" class="navbar-item">やどかり祭</nuxt-link>
-
-      <a role="button" class="navbar-burger" @click="toggleMenu" :class="{'is-active': isMenuActive}" data-target="navbar">
+      <nuxt-link to="/" class="navbar-item">
+        <!-- <img src="images/main/logo.png" class="logo" /> -->
+        やどかり祭
+      </nuxt-link>
+      <a
+        role="button"
+        class="navbar-burger"
+        :class="{ 'is-active': isMenuActive }"
+        data-target="navbar"
+        @click="toggleMenu"
+      >
         <span></span>
         <span></span>
         <span></span>
       </a>
     </div>
 
-    <div id="navbar" class="navbar-menu" :class="{'is-active': isMenuActive}">
+    <div id="navbar" class="navbar-menu" :class="{ 'is-active': isMenuActive }">
       <div class="navbar-end">
-        <nuxt-link to="/info" class="navbar-item">お知らせ</nuxt-link>
-        <nuxt-link to="/shinkan" class="navbar-item">新歓情報</nuxt-link>
+        <!-- <nuxt-link to="/info" class="navbar-item"> -->
+        <div class="navbar-item navlink">お知らせ</div>
+        <!-- </nuxt-link>-->
+        <nuxt-link to="/shinkan" class="navbar-item">
+          <!--<div class="navbar-item navlink"> -->新歓情報<!-- </div>-->
+        </nuxt-link>
       </div>
     </div>
   </nav>
@@ -26,18 +42,30 @@ export default {
       isMenuActive: false
     }
   },
-  methods: {
-    toggleMenu () {
-      this.isMenuActive = !this.isMenuActive
+  watch: {
+    $route() {
+      this.isMenuActive = false
     }
   },
-  watch: {
-    '$route' () {
-      this.isMenuActive = false
+  methods: {
+    toggleMenu() {
+      this.isMenuActive = !this.isMenuActive
     }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+.navbar {
+  background-color: $BLACK;
+}
+/* リンクが張れるようになったら、ここを消す*/
+.navlink {
+  color: #757373;
+}
+/* リンクが張れるようになったら、ここを消す*/
+.logo {
+  /*height: 90px;
+  width: 170px;*/
+}
 </style>

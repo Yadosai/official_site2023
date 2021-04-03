@@ -1,18 +1,31 @@
 <template>
   <section>
-    <Header/>
-    
+    <Hero />
+    <Main />
   </section>
 </template>
 
 <script>
+import Hero from '@/components/Hero'
+import Main from '@/components/Main'
 export default {
   components: {
+    Hero,
+    Main
+  },
+  head() {
+    return {
+      title: 'トップ',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Here is description'
+        }
+      ]
+    }
   }
-
 }
 </script>
 
-<style>
-
-</style>
+<style lang="scss" scoped></style>

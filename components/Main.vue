@@ -1,64 +1,54 @@
 <template>
   <main>
-    <v-container>
-      <v-row class="mb-10 rounded-lg green">
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-      </v-row>
-      <v-row class="mb-10 rounded-lg green">
-        <v-col class="" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="green" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-        <v-col class="green" cols="12" sm="12" md="4">
-          <v-card>
-            <v-card-title>
-              Sample
-            </v-card-title>
-          </v-card>
-        </v-col>
-      </v-row>
-    </v-container>
+    <div class="news">
+      <Jumbotron />
+    </div>
+    <div class="shinkan-link">
+      <LargeButton />
+    </div>
+    <div class="event-h1">企画紹介</div>
+    <div id="events-wrap" class="p-6">
+      <CardsSwiper />
+    </div>
   </main>
 </template>
 
 <script>
+import Jumbotron from '@/components/Jumbotron.vue'
+import LargeButton from '@/components/LargeButton.vue'
 export default {
-
+  components: {
+    Jumbotron,
+    LargeButton
+  }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 main {
-  padding: 36px;
+  background-color: #89cfeb;
+  padding: 3rem;
+}
+#events-wrap {
+  background-color: #89cfeb;
+}
+.event-h1 {
+  padding-top: 1rem;
+  margin-bottom: -1rem;
+  font-size: 2rem !important;
+  background-color: #89cfeb;
+}
+
+#cards-wrap {
+  background-color: #89cfeb;
+}
+
+#shinkan-link {
+  background-color: #89cfeb;
+  padding: 2rem;
+}
+
+#sponsors-wrap {
+  background-color: #87ceeb;
 }
 </style>
