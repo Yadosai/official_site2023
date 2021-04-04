@@ -63,8 +63,18 @@ window.addEventListener('resize', function (event) {});
     .pc {
         display: none;
     }
+
+    .mobile {
+        line-height: 0px;
+        vertical-align:bottom;
+    }
 }
 @media (min-width: 641px) {
+    .pc {
+        line-height: 0px;
+        vertical-align:bottom;
+    }
+
     .mobile {
         display: none;
     }
