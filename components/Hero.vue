@@ -5,18 +5,29 @@
         <img class="title" src="images/main/logo2.png" alt="やどかり祭" />
       </h1>
     </div>
-    <BezierSvg1 />
+    <div class="pc">
+      <BezierSvg1 />
+    </div>
+    <div class="mobile">
+      <BezierSvgmobile />
+    </div>
   </section>
 </template>
 
 <script>
 import BezierSvg1 from '@/static/images/Curve.svg'
+import BezierSvgmobile from '@/static/images/Curve-mobile.svg'
 export default {
   components: {
-    BezierSvg1
+    BezierSvg1,
+    BezierSvgmobile
   }
 }
+ 
+window.addEventListener('resize', function (event) {});
+
 </script>
+
 
 <style lang="scss" scoped>
 .hero-img {
@@ -42,5 +53,20 @@ export default {
   width: 50vw;
   margin: 0;
   padding: 0;
+}
+
+// @media (max-width: 576px) {
+    
+// }
+
+@media (max-width: 640px) {
+    .pc {
+        display: none;
+    }
+}
+@media (min-width: 641px) {
+    .mobile {
+        display: none;
+    }
 }
 </style>
