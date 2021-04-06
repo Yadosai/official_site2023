@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container fluid movie">
     <youtube
       ref="youtube"
       :video-id="videoId"
@@ -38,3 +38,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.movie {
+  text-align: center;
+}
+</style>
