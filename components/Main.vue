@@ -10,6 +10,7 @@
     <div class="shinkan-link">
       <LargeButton />
     </div>
+    <div class="event-h1">新歓YoutubeLive!!</div>
     <div class="youtube-link">
       <Movie />
     </div>
@@ -55,7 +56,9 @@ main {
   font-size: 3vw !important;
   background-color: #89cfeb;
 }
-
+.youtube-link {
+  padding: 2rem;
+}
 #cards-wrap {
   background-color: #89cfeb;
 }
