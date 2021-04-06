@@ -10,6 +10,9 @@
     <div class="shinkan-link">
       <LargeButton />
     </div>
+    <div class="youtube-link">
+      <Movie />
+    </div>
     <div class="event-h1">企画紹介</div>
     <div id="events-wrap">
       <CardsSwiper />
@@ -22,12 +25,14 @@ import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
+import Movie from '@/components/Movie'
 export default {
   components: {
     Jumbotron,
     LargeButton,
     SubHeader,
-    SubsubHeader
+    SubsubHeader,
+    Movie
   }
 }
 </script>
