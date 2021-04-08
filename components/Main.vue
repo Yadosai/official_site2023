@@ -10,6 +10,10 @@
     <div class="shinkan-link">
       <LargeButton />
     </div>
+    <div class="event-h1">新歓YoutubeLive!!</div>
+    <div class="youtube-link">
+      <Movie />
+    </div>
     <div class="event-h1">企画紹介</div>
     <div id="events-wrap">
       <CardsSwiper />
@@ -22,12 +26,14 @@ import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
+import Movie from '@/components/Movie'
 export default {
   components: {
     Jumbotron,
     LargeButton,
     SubHeader,
-    SubsubHeader
+    SubsubHeader,
+    Movie
   }
 }
 </script>
@@ -47,10 +53,9 @@ main {
 .event-h1 {
   padding-top: 1rem;
   margin-bottom: -1rem;
-  font-size: 3vw !important;
+  font-size: 2rem !important;
   background-color: #89cfeb;
 }
-
 #cards-wrap {
   background-color: #89cfeb;
 }
@@ -60,6 +65,9 @@ main {
   padding: 2rem;
 }
 
+.youtube-link {
+  padding: 2rem;
+}
 #sponsors-wrap {
   background-color: #87ceeb;
 }
