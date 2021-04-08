@@ -53,11 +53,8 @@ main {
 .event-h1 {
   padding-top: 1rem;
   margin-bottom: -1rem;
-  font-size: 3vw !important;
+  font-size: 2rem !important;
   background-color: #89cfeb;
-}
-.youtube-link {
-  padding: 2rem;
 }
 #cards-wrap {
   background-color: #89cfeb;
@@ -68,6 +65,9 @@ main {
   padding: 2rem;
 }
 
+.youtube-link {
+  padding: 2rem;
+}
 #sponsors-wrap {
   background-color: #87ceeb;
 }
