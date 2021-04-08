@@ -16,7 +16,8 @@
     "nuxt": "^2.14.12",
     "nuxt-webfontloader": "^1.1.0",
     "swiper": "^5.4.5",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-youtube": "^1.4.0"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
