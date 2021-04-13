@@ -2,7 +2,7 @@
   <section>
       <div class="container fluid">
         <div class="box">
-          <img src="images/info/shinkan.png"></img>
+          <a href="images/info/shinkan.png" target="_blank"><img src="images/info/shinkan.png"></img></a>
         </div>
       </div>
   </section>
