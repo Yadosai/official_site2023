@@ -3,6 +3,9 @@
     <div class="news">
       <Jumbotron />
     </div>
+    <div class="ShinkanSchedule">
+      <ShinkanSchedule />
+    </div>
     <div class="band">
       <SubHeader />
       <SubsubHeader />
@@ -27,13 +30,15 @@ import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
 import Movie from '@/components/Movie'
+import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
   components: {
     Jumbotron,
     LargeButton,
     SubHeader,
     SubsubHeader,
-    Movie
+    Movie,
+    ShinkanSchedule
   }
 }
 </script>
