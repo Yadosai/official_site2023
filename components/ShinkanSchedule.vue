@@ -15,8 +15,8 @@ export default {}
 <style lang="scss" scoped>
 .fluid {
   background-color: #89cfeb;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .box {
