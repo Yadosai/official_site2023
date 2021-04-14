@@ -1,6 +1,8 @@
 <template>
   <section>
-    <div class="yadosaitoha_logo">やどかり祭ってなに？</div>
+    <nuxt-link to="/Yadosai"
+      ><div class="yadosaitoha_logo">やどかり祭ってなに？</div></nuxt-link
+    >
   </section>
 </template>
 
