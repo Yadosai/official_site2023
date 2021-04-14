@@ -3,6 +3,7 @@
       <div class="container fluid">
         <div class="box">
           <a href="images/info/shinkan.png" target="_blank"><img src="images/info/shinkan.png"></img></a>
+          <div>タップで拡大</div>
         </div>
       </div>
   </section>
