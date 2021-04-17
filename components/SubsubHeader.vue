@@ -1,6 +1,10 @@
 <template>
   <section>
-    <div class="Covid19_logo">新型コロナウイルス感染症への対応について</div>
+    <nuxt-link to="/Covid19"
+      ><div class="Covid19_logo">
+        新型コロナウイルス感染症への対応について
+      </div></nuxt-link
+    >
   </section>
 </template>
 
