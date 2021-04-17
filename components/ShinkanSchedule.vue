@@ -3,6 +3,7 @@
       <div class="container fluid">
         <div class="box">
           <a href="images/info/shinkan.png" target="_blank"><img src="images/info/shinkan.png"></img></a>
+          <div>タップで拡大</div>
         </div>
       </div>
   </section>
@@ -15,8 +16,8 @@ export default {}
 <style lang="scss" scoped>
 .fluid {
   background-color: #89cfeb;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .box {
