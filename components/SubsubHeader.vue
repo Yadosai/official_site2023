@@ -1,6 +1,10 @@
 <template>
   <section>
-    <div class="Covid19_logo">新型コロナウイルス感染症への対応について</div>
+    <a href="pdf/20210417.pdf"
+      ><div class="Covid19_logo">
+        新型コロナウイルス感染症への対応について
+      </div></a
+    >
   </section>
 </template>
 
@@ -14,5 +18,8 @@ export default {}
   background-color: #ffffff;
   padding: 5px;
   text-align: center;
+}
+a {
+  color: #000000;
 }
 </style>
