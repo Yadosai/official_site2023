@@ -4,11 +4,11 @@
      <div class="notice">お知らせ</div>
         <hr id="j-line">
         <p class="content">
-        ・第47回やどかり祭は中止となりました。
+        ・第47回やどかり祭は中止となりました。来年の開催をお楽しみに！
         </p>
         <hr id="j-line">
         <p class="content">
-        ・新歓終わりました！
+        ・今年度の新歓は終わりました。
         </p>
         <hr id="j-line">
      </div>
