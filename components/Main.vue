@@ -17,7 +17,7 @@
     <div class="youtube-link">
       <Movie />
     </div>
-    <div class="event-h1">企画紹介</div>
+    <div class="event-h1">~企画紹介~</div>
     <div id="events-wrap">
       <CardsSwiper />
     </div>
