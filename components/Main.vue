@@ -12,6 +12,7 @@
     </div>
     <div class="shinkan-link">
       <LargeButton />
+      <LargeButton />
     </div>
     <div class="event-h1">新歓YoutubeLive!!</div>
     <div class="youtube-link">
