@@ -11,7 +11,7 @@
           </div>
           <div class="column">
             <div class="contents">
-              <p class="item">トップ</p>
+              <p class="item">企画</p>
               <div class="line">
                 <p>
                   ゆかたコンテスト&nbsp;神輿&nbsp;トーチトワリング&nbsp;火文字&nbsp;大学生クイズ&nbsp;野外ライブ
@@ -23,7 +23,7 @@
               <p class="item">お祭り情報</p>
               <div class="line">
                 <p>
-                  やどかり祭とは&nbsp;新歓について&nbsp;ニュース&nbsp;過去の祭
+                  やどかり祭とは&nbsp;新歓について&nbsp;ニュース
                 </p>
               </div>
             </div>
