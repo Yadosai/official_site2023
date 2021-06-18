@@ -8,10 +8,10 @@
     </div>
     <div class="band">
       <SubHeader />
+      <SubsubsubHeader />
       <SubsubHeader />
     </div>
     <div class="shinkan-link">
-      <LargeButton />
       <LargeButton />
     </div>
     <div class="event-h1">新歓YoutubeLive!!</div>
@@ -32,6 +32,7 @@ import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
 import Movie from '@/components/Movie'
 import ShinkanSchedule from '@/components/ShinkanSchedule'
+import SubsubsubHeader from '@/components/SubsubsubHeader.vue'
 export default {
   components: {
     Jumbotron,
