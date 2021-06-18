@@ -14,14 +14,15 @@
       <div id="Shinkan-schedule" class="columns">
         <p id="Shinkan-schedule-content" class="column">
           新入生のみなさん、入学おめでとうございます！🌸<br />
-          コロナの影響で入学式が中止になったり、入学早々大変だったと思います。<br />
+          コロナの影響で入学早々大変だったと思います。<br />
           「 その分これからの大学生活めいっぱい楽しみたい…」<br />
           そんなあなたにオススメなのがやどかり祭実行委員会！<br />
         </p>
 
         <p id="Shinkan-schedule-content" class="column">
           ＜新歓日程＞<br />
-          ※新型コロナウイルスの影響により、日程は未定となっております。決定した際にはHP、Twitter上でお伝えします。ご了承ください。
+          今年度の新歓は全て終了しました。<br />
+          ただ、メンバーは随時募集中ですので興味がある方はtwitterでDMをお気軽にどうぞ！<br />
         </p>
       </div>
 
