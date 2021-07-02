@@ -21,17 +21,6 @@
         <span></span>
       </a>
     </div>
-
-    <div id="navbar" class="navbar-menu" :class="{ 'is-active': isMenuActive }">
-      <div class="navbar-end">
-        <!-- <nuxt-link to="/info" class="navbar-item"> -->
-        <div class="navbar-item navlink">お知らせ</div>
-        <!-- </nuxt-link>-->
-        <nuxt-link to="/shinkan" class="navbar-item">
-          <!--<div class="navbar-item navlink"> -->新歓情報<!-- </div>-->
-        </nuxt-link>
-      </div>
-    </div>
   </nav>
 </template>
 
