@@ -8,7 +8,7 @@
         </p>
         <hr id="j-line">
         <p class="content">
-        ・新歓実施中!
+        ・新歓は終了しました！ぴーや
         </p>
         <hr id="j-line">
      </div>
