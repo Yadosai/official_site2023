@@ -9,13 +9,6 @@
         <!-- <img src="images/main/logo.png" class="logo" /> -->
         やどかり祭
       </nuxt-link>
-      <a
-        role="button"
-        class="navbar-burger"
-        :class="{ 'is-active': isMenuActive }"
-        data-target="navbar"
-        @click="toggleMenu"
-      >
         <span></span>
         <span></span>
         <span></span>
