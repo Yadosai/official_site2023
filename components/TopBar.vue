@@ -9,28 +9,10 @@
         <!-- <img src="images/main/logo.png" class="logo" /> -->
         やどかり祭
       </nuxt-link>
-      <a
-        role="button"
-        class="navbar-burger"
-        :class="{ 'is-active': isMenuActive }"
-        data-target="navbar"
-        @click="toggleMenu"
-      >
         <span></span>
         <span></span>
         <span></span>
       </a>
-    </div>
-
-    <div id="navbar" class="navbar-menu" :class="{ 'is-active': isMenuActive }">
-      <div class="navbar-end">
-        <!-- <nuxt-link to="/info" class="navbar-item"> -->
-        <div class="navbar-item navlink">お知らせ</div>
-        <!-- </nuxt-link>-->
-        <nuxt-link to="/shinkan" class="navbar-item">
-          <!--<div class="navbar-item navlink"> -->新歓情報<!-- </div>-->
-        </nuxt-link>
-      </div>
     </div>
   </nav>
 </template>
