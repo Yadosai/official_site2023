@@ -14,7 +14,7 @@
               <p class="item">企画</p>
               <div class="line">
                 <p>
-                  ゆかたコンテスト&nbsp;神輿&nbsp;トーチトワリング&nbsp;火文字&nbsp;大学生クイズ&nbsp;野外ライブ
+                  ゆかたコンテスト&nbsp;火文字&nbsp;大学生クイズ&nbsp;野外ライブ&nbsp;ダンス
                 </p>
               </div>
             </div>
@@ -22,9 +22,7 @@
             <div class="contents">
               <p class="item">お祭り情報</p>
               <div class="line">
-                <p>
-                  やどかり祭とは&nbsp;新歓について&nbsp;ニュース
-                </p>
+                <p>やどかり祭とは&nbsp;新歓について&nbsp;ニュース</p>
               </div>
             </div>
           </div>
@@ -51,7 +49,7 @@
       <div class="columns">
         <div class="column">
           <p class="has-text-centered p-4">
-            ©第47回宿舎祭実行委員会<br />
+            ©第48回宿舎祭実行委員会<br />
             当サイトでは、アクセスログの収集・解析にGoogle
             アナリティクスを使用しております。<br />
             GoogleアナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。<br />
