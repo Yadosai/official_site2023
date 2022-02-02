@@ -8,6 +8,8 @@
     </div> -->
     <div class="band">
       <SubHeader />
+    </div>
+    <div class="covid">
       <SubsubHeader />
     </div>
     <div class="shinkan-link">
@@ -53,7 +55,10 @@ main {
   padding: 3rem;
 }
 .band {
-  padding: 5% 0;
+  padding: 2rem;
+}
+.covid {
+  padding: 1rem 2.5rem 2rem;
 }
 #events-wrap {
   background-color: #89cfeb;
