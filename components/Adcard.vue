@@ -32,8 +32,8 @@ export default {}
   box-shadow: 0px 0px 0px 0px black;
 }
 .web-ad-content {
-  height: 148px;
-  width: 228px;
+  height: 111px;
+  width: 171px;
   text-align: center;
 }
 </style>
