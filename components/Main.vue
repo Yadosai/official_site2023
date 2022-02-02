@@ -3,9 +3,9 @@
     <div class="news">
       <Jumbotron />
     </div>
-    <div class="ShinkanSchedule">
+    <!-- <div class="ShinkanSchedule">
       <ShinkanSchedule />
-    </div>
+    </div> -->
     <div class="band">
       <SubHeader />
       <SubsubHeader />
@@ -13,14 +13,18 @@
     <div class="shinkan-link">
       <LargeButton />
     </div>
-    <div class="event-h1">新歓YoutubeLive!!</div>
+    <!-- <div class="event-h1">新歓YoutubeLive!!</div>
     <div class="youtube-link">
       <Movie />
-    </div>
+    </div> -->
     <div class="event-h1">企画紹介</div>
     <div id="events-wrap">
       <CardsSwiper />
     </div>
+    <!-- <div class="ad-h1">協賛団体一覧</div>
+    <div class="adcard">
+      <Adcard />
+    </div> -->
   </main>
 </template>
 
@@ -29,16 +33,16 @@ import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
-import Movie from '@/components/Movie'
-import ShinkanSchedule from '@/components/ShinkanSchedule'
+// import Movie from '@/components/Movie'
+// import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
   components: {
     Jumbotron,
     LargeButton,
     SubHeader,
-    SubsubHeader,
-    Movie,
-    ShinkanSchedule
+    SubsubHeader
+    // Movie,
+    // ShinkanSchedule
   }
 }
 </script>
@@ -58,6 +62,12 @@ main {
 .event-h1 {
   padding-top: 1rem;
   margin-bottom: -1rem;
+  font-size: 2rem !important;
+  background-color: #89cfeb;
+}
+.ad-h1 {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 2rem !important;
   background-color: #89cfeb;
 }
