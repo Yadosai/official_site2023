@@ -5,7 +5,7 @@
       <hr id="j-line" />
       <a href="https://twitter.com/yadokari_sai/status/1485464944338358272">
         <p class="content">
-          ・ダンス出演団体募集中！<span>※締め切りました</span>
+          ・ダンス出演団体募集中！<span class="red">※締め切りました</span>
         </p>
       </a>
       <hr id="j-line" />
@@ -45,7 +45,7 @@ export default {}
   margin-bottom: 20px;
 }
 
-span {
+.red {
   color: red;
 }
 </style>
