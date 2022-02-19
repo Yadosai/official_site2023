@@ -4,7 +4,9 @@
       <div class="notice">お知らせ</div>
       <hr id="j-line" />
       <a href="https://twitter.com/yadokari_sai/status/1485464944338358272">
-        <p class="content">・ダンス出演団体募集中！</p>
+        <p class="content">
+          ・ダンス出演団体募集中！<span>※締め切りました</span>
+        </p>
       </a>
       <hr id="j-line" />
       <a href="/Covid19">
@@ -41,5 +43,9 @@ export default {}
 .content {
   width: 100%;
   margin-bottom: 20px;
+}
+
+span {
+  color: red;
 }
 </style>
