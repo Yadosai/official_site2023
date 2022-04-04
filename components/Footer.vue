@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     externalLink() {
-      const url = 'https://twitter.com/yado_shinkan47'
+      const url = 'https://twitter.com/yadokari_sai'
       window.open(url, '_blank')
     }
   }

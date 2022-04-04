@@ -21,7 +21,11 @@
 
         <p id="Shinkan-schedule-content" class="column">
           ＜新歓日程＞<br />
-          ※新型コロナウイルスの影響により、日程は未定となっております。決定した際にはHP、Twitter上でお伝えします。ご了承ください。
+          <img
+            id="event-img"
+            src="/images/info/shinkan2022-1.jpeg"
+            alt="shinkan-img"
+          />
         </p>
       </div>
 
