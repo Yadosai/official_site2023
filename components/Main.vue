@@ -9,9 +9,9 @@
     <div class="band">
       <SubHeader />
     </div>
-    <div class="covid">
+    <!-- <div class="covid">
       <SubsubHeader />
-    </div>
+    </div> -->
     <div class="shinkan-link">
       <LargeButton />
     </div>
@@ -34,15 +34,15 @@
 import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
-import SubsubHeader from '@/components/SubsubHeader'
+// import SubsubHeader from '@/components/SubsubHeader'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
   components: {
     Jumbotron,
     LargeButton,
-    SubHeader,
-    SubsubHeader
+    SubHeader
+    // SubsubHeader
     // Movie,
     // ShinkanSchedule
   }
