@@ -106,6 +106,6 @@ export default {
   },
 
   googleAnalytics: {
-    id: 'G-1VP2GPTPDH'
+    id: 'UA-160309461-1'
   }
 }
