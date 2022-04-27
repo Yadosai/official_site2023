@@ -11,10 +11,6 @@
         <p class="content">・大学生クイズ出演者募集中！</p>
       </a>
       <hr id="j-line" />
-      <a href="/Covid19">
-        <p class="content">・第47回やどかり祭は中止となりました。</p>
-      </a>
-      <hr id="j-line" />
     </div>
   </section>
 </template>
