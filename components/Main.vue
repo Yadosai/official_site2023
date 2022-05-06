@@ -23,10 +23,10 @@
     <div id="events-wrap">
       <CardsSwiper />
     </div>
-    <!-- <div class="ad-h1">協賛団体一覧</div>
-    <div class="adcard">
+    <div class="ad-h1">協賛団体一覧</div>
+    <div>
       <Adcard />
-    </div> -->
+    </div>
   </main>
 </template>
 
