@@ -17,6 +17,7 @@ export default {}
   padding: 1rem 0.5rem;
   margin: 1.5rem;
   text-align: center;
+  border-radius: 10px;
 }
 a {
   color: #000000;

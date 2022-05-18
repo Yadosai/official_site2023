@@ -9,6 +9,10 @@
         <p class="content">・事前登録受付中！</p>
       </a>
       <hr id="j-line" />
+      <a href="https://twitter.com/yadokari_sai/status/1526885677412978688">
+        <p class="content">・第48回宿舎祭開催決定！</p>
+      </a>
+      <hr id="j-line" />
     </div>
   </section>
 </template>

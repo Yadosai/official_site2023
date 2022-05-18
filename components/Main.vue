@@ -9,12 +9,19 @@
     <div class="band">
       <SubHeader />
     </div>
-    <div class="pamphlet">
+    <!-- <div>
       <SubsubHeader />
-    </div>
+    </div> -->
     <div class="shinkan-link">
       <LargeButton />
     </div>
+    <div class="ad-h1">事前登録フォーム</div>
+    <p class="form">
+      第48回宿舎祭は完全事前登録制となっております。登録は<a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeVDRQBcBPVhTByzLfZYyZ0WSGuUH0Ouzvx1RPVXHnk-Vb5WQ/viewform"
+        >こちら</a
+      >から。
+    </p>
     <!-- <div class="event-h1">新歓YoutubeLive!!</div>
     <div class="youtube-link">
       <Movie />
@@ -34,15 +41,15 @@
 import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
-import SubsubHeader from '@/components/SubsubHeader'
+// import SubsubHeader from '@/components/SubsubHeader'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
   components: {
     Jumbotron,
     LargeButton,
-    SubHeader,
-    SubsubHeader
+    SubHeader
+    // SubsubHeader
     // Movie,
     // ShinkanSchedule
   }
@@ -56,9 +63,6 @@ main {
 }
 .band {
   padding: 2rem 2rem 0rem;
-}
-.pamplet {
-  padding: 3rem, 1rem;
 }
 #events-wrap {
   background-color: #89cfeb;
@@ -90,5 +94,13 @@ main {
 }
 #sponsors-wrap {
   background-color: #87ceeb;
+}
+
+.form {
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
 }
 </style>
