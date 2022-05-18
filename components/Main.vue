@@ -9,9 +9,9 @@
     <div class="band">
       <SubHeader />
     </div>
-    <!-- <div class="covid">
+    <div class="pamphlet">
       <SubsubHeader />
-    </div> -->
+    </div>
     <div class="shinkan-link">
       <LargeButton />
     </div>
@@ -34,15 +34,15 @@
 import Jumbotron from '@/components/Jumbotron.vue'
 import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
-// import SubsubHeader from '@/components/SubsubHeader'
+import SubsubHeader from '@/components/SubsubHeader'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
   components: {
     Jumbotron,
     LargeButton,
-    SubHeader
-    // SubsubHeader
+    SubHeader,
+    SubsubHeader
     // Movie,
     // ShinkanSchedule
   }
@@ -55,10 +55,10 @@ main {
   padding: 3rem;
 }
 .band {
-  padding: 2rem;
+  padding: 2rem 2rem 0rem;
 }
-.covid {
-  padding: 1rem 2.5rem 2rem;
+.pamplet {
+  padding: 3rem, 1rem;
 }
 #events-wrap {
   background-color: #89cfeb;

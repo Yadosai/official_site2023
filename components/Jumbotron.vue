@@ -3,12 +3,10 @@
     <div class="Jumbotron">
       <div class="notice">お知らせ</div>
       <hr id="j-line" />
-      <nuxt-link to="/Shinkan">
-        <p class="content">・新歓実施中!</p>
-      </nuxt-link>
-      <hr id="j-line" />
-      <a href="https://twitter.com/yadokari_sai/status/1512385737978953729">
-        <p class="content">・大学生クイズ出演者募集中！</p>
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeVDRQBcBPVhTByzLfZYyZ0WSGuUH0Ouzvx1RPVXHnk-Vb5WQ/viewform"
+      >
+        <p class="content">・事前登録受付中！</p>
       </a>
       <hr id="j-line" />
     </div>
