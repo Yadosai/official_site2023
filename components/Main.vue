@@ -9,12 +9,12 @@
     <div class="band">
       <SubHeader />
     </div>
-    <!-- <div>
+    <div>
       <SubsubHeader />
-    </div> -->
-    <div class="shinkan-link">
-      <LargeButton />
     </div>
+    <!-- <div class="shinkan-link">
+      <LargeButton />
+    </div> -->
     <div class="ad-h1">事前登録フォーム</div>
     <p class="form">
       第48回宿舎祭は完全事前登録制となっております。登録は<a
@@ -39,17 +39,17 @@
 
 <script>
 import Jumbotron from '@/components/Jumbotron.vue'
-import LargeButton from '@/components/LargeButton.vue'
+// import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
-// import SubsubHeader from '@/components/SubsubHeader'
+import SubsubHeader from '@/components/SubsubHeader'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
   components: {
     Jumbotron,
-    LargeButton,
-    SubHeader
-    // SubsubHeader
+    // LargeButton,
+    SubHeader,
+    SubsubHeader
     // Movie,
     // ShinkanSchedule
   }
