@@ -1,9 +1,7 @@
 <template>
   <section>
-    <a href="pdf/20210417.pdf"
-      ><div class="Covid19_logo">
-        新型コロナウイルス感染症への対応について
-      </div></a
+    <a href="pdf/pamph_48.pdf"
+      ><div class="pamphlet48">パンフレットはこちら！</div></a
     >
   </section>
 </template>
@@ -13,11 +11,13 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.Covid19_logo {
+.pamphlet48 {
   font-size: 3vw;
   background-color: #ffffff;
-  padding: 5px;
+  padding: 1rem 0.5rem;
+  margin: 1.5rem;
   text-align: center;
+  border-radius: 10px;
 }
 a {
   color: #000000;
