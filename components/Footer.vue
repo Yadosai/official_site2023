@@ -22,7 +22,7 @@
             <div class="contents">
               <p class="item">お祭り情報</p>
               <div class="line">
-                <p>やどかり祭とは&nbsp;新歓について&nbsp;ニュース</p>
+                <p>やどかり祭とは&nbsp;ニュース</p>
               </div>
             </div>
           </div>
