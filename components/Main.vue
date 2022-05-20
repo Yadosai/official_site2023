@@ -30,6 +30,11 @@
     <div id="events-wrap">
       <CardsSwiper />
     </div>
+    <div class="traffic">交通情報</div>
+    <div id="traffic-wrap">
+      お車や自転車でご来場される方は<nuxt-link to="/Traffic">こちら</nuxt-link
+      >をご覧ください
+    </div>
     <div class="ad-h1">協賛団体一覧</div>
     <div>
       <Adcard />
@@ -80,6 +85,12 @@ main {
   font-size: 2rem !important;
   background-color: #89cfeb;
 }
+.traffic {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem !important;
+  background-color: #89cfeb;
+}
 #cards-wrap {
   background-color: #89cfeb;
 }
@@ -101,6 +112,11 @@ main {
   background-color: white;
   padding: 1rem;
   text-align: center;
+  border-radius: 10px;
+}
+#traffic-wrap {
+  font-size: 1.5rem;
+  padding: 1rem;
   border-radius: 10px;
 }
 </style>
