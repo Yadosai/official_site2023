@@ -1,24 +1,24 @@
 <template>
   <section>
     <swiper :options="swiperOption">
-      <swiper-slide>
+      <!-- <swiper-slide>
         <nuxt-link to="/events/torch">
           <Card
             image-path="/images/events/torch.jpg"
             title="トーチトワリング"
           />
         </nuxt-link>
-      </swiper-slide>
+      </swiper-slide> -->
       <swiper-slide>
         <nuxt-link to="/events/yukacon">
           <Card image-path="/images/events/yukacon.jpg" title="ゆかコン" />
         </nuxt-link>
       </swiper-slide>
-      <swiper-slide>
+      <!-- <swiper-slide>
         <nuxt-link to="/events/mikoshi">
           <Card image-path="/images/events/mikoshi.jpeg" title="御輿" />
         </nuxt-link>
-      </swiper-slide>
+      </swiper-slide> -->
       <swiper-slide>
         <nuxt-link to="/events/himoji">
           <Card image-path="/images/events/himoji.jpeg" title="火文字" />
