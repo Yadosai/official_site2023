@@ -5,14 +5,18 @@
     </div>
     <div id="traffic-wrap" class="p-6">
       <h1 id="traffic-title" class="is-size-5 has-text-weight-bold">
-        2021年度やどかり祭開催中止のお知らせ
+        交通に関する注意事項
       </h1>
-      <p id="traffic-actor">第47回 筑波大学宿舎祭実行委員会</p>
-      <p id="traffic-description" class="mt-4">
-        平素より宿舎祭実行委員会の活動にご理解とご協力を賜りありがとうございます。<br />
-        当実行委員会では新型コロナウイルス感染症拡大の状況を鑑み、感染拡大を防ぐため今年度も春学期中の開催は避けるべきであり、さらに秋学期での開催はやどかり祭のコンセプトである「新入生同士に仲良くなってもらう機会を提供すること」にそぐわないなどの理由から総合的に判断し、大変遺憾ながら、2021年度の開催も断念することにいたしました。<br />
-        来年度にこそ、素晴らしい祭を作れるように委員一丸となって引き続き努力してまいりますので、今後ともお力添えのほど、よろしくお願いいたします。
+      <div class="traffic">      <p id="traffic-description" class="mt-4">
+        前夜祭(金曜日)、本祭(土曜日)の両日は多くの来場者が予想されます。</br>
+        駐車場は十二分には用意しておりますが、確実に駐車できるという保証はできません。できるだけ、公共交通機関をご利用ください。</br></br>
+        なお、お車でご来場される方に注意事項がございます。本祭は大学内の道路上で行うこととなっており、歩行者天国を設けております。手前の駐車場付近にバリケードがございますが、それより先には<span style="font-weight:bold; color:#FF0000">絶対に</span>進まないでください。</br>
+        前夜祭(金曜日)は図右上、<span style="font-weight:bold">緑色部の野球場横駐車場</span>をご利用ください。</br>
+        当日(土曜日)は緑色部の駐車場全てがご利用になれます。</br></br>
+        <span style="font-weight:bold">自転車で来られる方へのおしらせです。</span></br>
+        自転車でお越しの際は必ず紫色部の駐輪場に停めてください。紫色部以外に止められている自転車を発見次第、付近の駐輪場に停めさせて頂きますので予めご了承ください。
       </p>
+      <p><a href="images/info/traffic_info.png" target="_blank"><img src="images/info/traffic_info.png" width="400" height="600"></img></a></p></div>
     </div>
   </section>
 </template>
@@ -30,6 +34,12 @@ export default {}
     object-fit: cover;
   }
 }
+.traffic {
+  display: flex;
+}
+.traffic>p {
+  width: 50%;
+}
 #traffic-wrap {
   background-color: rgba($color: #231815, $alpha: 0.8);
   color: white;
@@ -45,6 +55,7 @@ export default {}
   #traffic-description {
     text-align: left;
   }
+
 }
 #other-traffic-wrap {
   text-align: center;
