@@ -12,6 +12,9 @@
     <div>
       <SubsubHeader />
     </div>
+    <div>
+      <SubsubsubHeader />
+    </div>
     <!-- <div class="shinkan-link">
       <LargeButton />
     </div> -->
@@ -22,6 +25,13 @@
         >こちら</a
       >から。
     </p>
+    <div class="traffic">交通情報</div>
+    <div id="traffic-wrap">
+      お車や自転車でご来場される方は<nuxt-link to="/Traffic">こちら</nuxt-link
+      >をご覧ください
+    </div>
+    <div class="mogi"><nuxt-link to="/mogi">模擬店情報</nuxt-link></div>
+    <div id="mogi-wrap"></div>
     <!-- <div class="event-h1">新歓YoutubeLive!!</div>
     <div class="youtube-link">
       <Movie />
@@ -29,11 +39,6 @@
     <div class="event-h1">企画紹介</div>
     <div id="events-wrap">
       <CardsSwiper />
-    </div>
-    <div class="traffic">交通情報</div>
-    <div id="traffic-wrap">
-      お車や自転車でご来場される方は<nuxt-link to="/Traffic">こちら</nuxt-link
-      >をご覧ください
     </div>
     <div class="ad-h1">協賛団体一覧</div>
     <div>
@@ -47,6 +52,7 @@ import Jumbotron from '@/components/Jumbotron.vue'
 // import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
+import SubsubsubHeader from '@/components/SubsubsubHeader.vue'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
@@ -54,7 +60,8 @@ export default {
     Jumbotron,
     // LargeButton,
     SubHeader,
-    SubsubHeader
+    SubsubHeader,
+    SubsubsubHeader
     // Movie,
     // ShinkanSchedule
   }
@@ -118,5 +125,11 @@ main {
   font-size: 1.5rem;
   padding: 1rem;
   border-radius: 10px;
+}
+.mogi {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem !important;
+  background-color: #89cfeb;
 }
 </style>
