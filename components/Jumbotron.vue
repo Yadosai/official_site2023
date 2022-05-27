@@ -3,6 +3,10 @@
     <div class="Jumbotron">
       <div class="notice">お知らせ</div>
       <hr id="j-line" />
+      <nuxt-link to="/Traffic">
+        <p class="content">・お車や自転車でご来場の方へ</p>
+      </nuxt-link>
+      <hr id="j-line" />
       <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSeVDRQBcBPVhTByzLfZYyZ0WSGuUH0Ouzvx1RPVXHnk-Vb5WQ/viewform"
       >
