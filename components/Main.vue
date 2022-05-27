@@ -12,9 +12,9 @@
     <div>
       <SubsubHeader />
     </div>
-    <div>
+    <!-- <div>
       <SubsubsubHeader />
-    </div>
+    </div> -->
     <!-- <div class="shinkan-link">
       <LargeButton />
     </div> -->
@@ -52,7 +52,7 @@ import Jumbotron from '@/components/Jumbotron.vue'
 // import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
-import SubsubsubHeader from '@/components/SubsubsubHeader.vue'
+// import SubsubsubHeader from '@/components/SubsubsubHeader.vue'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
@@ -60,8 +60,8 @@ export default {
     Jumbotron,
     // LargeButton,
     SubHeader,
-    SubsubHeader,
-    SubsubsubHeader
+    SubsubHeader
+    // SubsubsubHeader
     // Movie,
     // ShinkanSchedule
   }
