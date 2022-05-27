@@ -3,19 +3,13 @@
     <div class="Jumbotron">
       <div class="notice">お知らせ</div>
       <hr id="j-line" />
+      <nuxt-link to="/mogi">
+        <p class="content">・模擬店情報掲載中！</p>
+      </nuxt-link>
+      <hr id="j-line" />
       <nuxt-link to="/Traffic">
         <p class="content">・お車や自転車でご来場の方へ</p>
       </nuxt-link>
-      <hr id="j-line" />
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSeVDRQBcBPVhTByzLfZYyZ0WSGuUH0Ouzvx1RPVXHnk-Vb5WQ/viewform"
-      >
-        <p class="content">・事前登録受付中！</p>
-      </a>
-      <hr id="j-line" />
-      <a href="https://twitter.com/yadokari_sai/status/1526885677412978688">
-        <p class="content">・第48回宿舎祭開催決定！</p>
-      </a>
       <hr id="j-line" />
     </div>
   </section>
