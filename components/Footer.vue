@@ -49,7 +49,7 @@
       <div class="columns">
         <div class="column">
           <p class="has-text-centered p-4">
-            ©第48回宿舎祭実行委員会<br />
+            ©第49回宿舎祭実行委員会<br />
             当サイトでは、アクセスログの収集・解析にGoogle
             アナリティクスを使用しております。<br />
             GoogleアナリティクスではCookieを使用し、個人を特定する情報を含まずにログを収集しております。<br />
