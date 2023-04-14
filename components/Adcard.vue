@@ -11,6 +11,9 @@
       <a href="http://www.seirock-ya.jp/" target="_blank">
         <img src="images/ad/清六家.jpg" alt="sponsor" class="web-ad-content" />
       </a>
+      <a href="http://gakuen-menkyo.jp/" target="_blank">
+      <img src="images/ad/学園中央自動車学校.png" alt="sponsor" class="web-ad-content" />
+      </a>
       <a href="/Adlist">
         <img src="images/ad/etc.png" alt="sponsor" class="web-ad-content" />
       </a>
