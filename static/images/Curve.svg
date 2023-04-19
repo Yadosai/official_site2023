@@ -1,5 +1,5 @@
 <svg viewBox="-100 70 200 30" xmlns="http://www.w3.org/2000/svg"> 
         <path d="M -100,100 Q 55 40 100 100" fill="hsl(197, 71%, 73%)" stroke="none"/>
-        <text x="-25" y="89" font-family='Noto Sans JP' font-size="5"><tspan x="-10" y="85">前夜祭：5/27（金）16:30~21:30</tspan>
-        <tspan x="-5" y="95">本祭：5/28（土）10:55~21:00</tspan></text>
+        <text x="-25" y="89" font-family='Noto Sans JP' font-size="5"><tspan x="-10" y="85">前夜祭：5/26（金）16:30~21:30</tspan>
+        <tspan x="-5" y="95">本祭：5/27（土）10:55~21:00</tspan></text>
 </svg>
