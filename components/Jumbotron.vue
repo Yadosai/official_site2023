@@ -14,7 +14,7 @@
       </a>
       <hr id="j-line" />
       <a href="https://twitter.com/yadokari_sai/status/1526885677412978688">
-        <p class="content">・第48回宿舎祭開催決定！</p>
+        <p class="content">・第49回宿舎祭開催決定！</p>
       </a>
       <hr id="j-line" />
     </div>
