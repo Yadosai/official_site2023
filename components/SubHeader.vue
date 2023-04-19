@@ -24,5 +24,6 @@ export default {}
     #1f45fb 90%
   );
   text-align: center;
+  border-radius: 10px;
 }
 </style>

@@ -1,5 +1,5 @@
 {
-  "name": "official_site2021",
+  "name": "official_site2023",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "core-js": "^3.6.5",
     "nuxt": "^2.14.12",
     "nuxt-webfontloader": "^1.1.0",
+    "sass": "^1.43.2",
     "swiper": "^5.4.5",
     "vue-awesome-swiper": "^4.1.1",
     "vue-youtube": "^1.4.0"
@@ -35,9 +36,8 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "http-server": "^0.12.3",
-    "node-sass": "^5.0.0",
     "nuxt-svg-loader": "^1.2.0",
     "prettier": "^2.2.1",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.2.0"
   }
 }

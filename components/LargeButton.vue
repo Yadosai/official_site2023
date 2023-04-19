@@ -24,6 +24,7 @@ export default {}
 .box {
   padding: 1.75rem;
   text-align: center;
+  font-size: 1.5vw;
   img{
     height: 2em;
   }

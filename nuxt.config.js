@@ -14,21 +14,21 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s | 2021年度やどかり祭-筑波大学宿舎祭',
+    titleTemplate: '%s | 2023年度やどかり祭-筑波大学宿舎祭',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '2021年度やどかり祭-筑波大学宿舎祭-'
+        content: '2023年度やどかり祭-筑波大学宿舎祭-'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'here is url' },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '2021年度やどかり祭-筑波大学宿舎祭-'
+        content: '2023年度やどかり祭-筑波大学宿舎祭-'
       },
       {
         hid: 'og:description',
