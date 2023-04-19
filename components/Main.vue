@@ -26,7 +26,7 @@
           >こちら</a
         >から。</del
       ></br><span style="color: red"
-        >事前登録人数上限に達したため、応募を締め切りました。</span
+        >事前登録人数上限に達したため応募を締め切りました。</span
       >
     </p>
     <div class="traffic">交通情報</div>
