@@ -3,6 +3,10 @@
     <div class="Jumbotron">
       <div class="notice">お知らせ</div>
       <hr id="j-line" />
+      <nuxt-link to="/mogi">
+        <p class="content">・模擬店情報掲載中！</p>
+      </nuxt-link>
+      <hr id="j-line" />
       <nuxt-link to="/Traffic">
         <p class="content">・お車や自転車でご来場の方へ</p>
       </nuxt-link>
