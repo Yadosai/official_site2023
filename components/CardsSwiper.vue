@@ -29,11 +29,11 @@
           <Card image-path="/images/events/dance.jpeg" title="ダンス" />
         </nuxt-link>
       </swiper-slide>
-      <swiper-slide>
+      <!-- <swiper-slide>
         <nuxt-link to="/events/quiz">
           <Card image-path="/images/events/quiz.png" title="大学生クイズ" />
         </nuxt-link>
-      </swiper-slide>
+      </swiper-slide> -->
       <swiper-slide>
         <nuxt-link to="/events/live">
           <Card image-path="/images/events/live.png" title="野外ライブ" />
