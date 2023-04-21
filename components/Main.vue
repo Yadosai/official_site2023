@@ -12,13 +12,19 @@
     <div>
       <SubsubHeader />
     </div>
-    <div>
+    <!-- <div>
       <SubsubsubHeader />
-    </div>
+    </div> -->
+    <div>
+      <SubsubsubsubHeader />
+      </div>
+      <div>
+        <SubsubsubsubsubHeader />
+        </div>
     <!-- <div class="shinkan-link">
       <LargeButton />
     </div> -->
-    <div class="ad-h1">事前登録フォーム</div>
+    <!-- <div class="ad-h1">事前登録フォーム</div>
     <p class="form">
       <del
         >第48回宿舎祭は完全事前登録制となっております。登録は<a
@@ -28,7 +34,7 @@
       ></br><span style="color: red"
         >事前登録人数上限に達したため応募を締め切りました。</span
       >
-    </p>
+    </p> -->
     <div class="traffic">交通情報</div>
     <div id="traffic-wrap">
       お車や自転車でご来場される方は<nuxt-link to="/Traffic">こちら</nuxt-link
@@ -56,7 +62,9 @@ import Jumbotron from '@/components/Jumbotron.vue'
 // import LargeButton from '@/components/LargeButton.vue'
 import SubHeader from '@/components/SubHeader'
 import SubsubHeader from '@/components/SubsubHeader'
-import SubsubsubHeader from '@/components/SubsubsubHeader.vue'
+// import SubsubsubHeader from '@/components/SubsubsubHeader.vue'
+import SubsubsubsubHeader from '@/components/SubsubsubsubHeader.vue'
+import SubsubsubsubsubHeader from '@/components/SubsubsubsubsubHeader.vue'
 // import Movie from '@/components/Movie'
 // import ShinkanSchedule from '@/components/ShinkanSchedule'
 export default {
@@ -65,7 +73,9 @@ export default {
     // LargeButton,
     SubHeader,
     SubsubHeader,
-    SubsubsubHeader
+    SubsubsubsubHeader,
+    SubsubsubsubsubHeader
+    // SubsubsubHeader
     // Movie,
     // ShinkanSchedule
   }
