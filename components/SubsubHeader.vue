@@ -13,13 +13,13 @@ export default {}
 <style lang="scss" scoped>
 .pamphlet48 {
   font-size: 3vw;
-  background-color: #ffffff;
+  background-color: #2e4b71;
   padding: 1rem 0.5rem;
   margin: 1.5rem;
   text-align: center;
   border-radius: 10px;
 }
 a {
-  color: #000000;
+  color: #ffffff;
 }
 </style>
