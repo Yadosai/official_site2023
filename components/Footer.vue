@@ -14,7 +14,7 @@
               <p class="item">企画</p>
               <div class="line">
                 <p>
-                  ゆかたコンテスト&nbsp;火文字&nbsp;大学生クイズ&nbsp;野外ライブ&nbsp;ダンス
+                  ゆかたコンテスト&nbsp;火文字&nbsp;野外ライブ&nbsp;ダンス
                 </p>
               </div>
             </div>

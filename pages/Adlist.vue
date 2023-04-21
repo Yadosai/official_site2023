@@ -10,78 +10,67 @@
       <dd>
         <div class="ad_list">
           <dl>
-            <dt>麺や 蒼</dt>
-            <dt>株式会社アイデン</dt>
-            <dt>ASA 学園都市</dt>
-            <dt>（株）アジア住販</dt>
-            <dt>さくらの森ダイニング alecore</dt>
-            <dt>（有）飯田自動車整備工場</dt>
-            <dt>飯塚スタジオ</dt>
-            <dt>博多拉麺 一休</dt>
-            <dt>株式会社井上フード（粉とクリーム・カレーショップ）</dt>
-            <dt>有限会社岩崎電機</dt>
-            <dt>印晶堂</dt>
-            <dt>ひととつむぐカフェ 縁 counter</dt>
-            <dt>CARDOCK オオノ</dt>
-            <dt>ガーリーショット</dt>
-            <dt>春日歯科医院</dt>
-            <dt>かつ大</dt>
-            <dt>勧学院</dt>
-            <dt>らーめん 逆流</dt>
-            <dt>牛角 つくばテクノパーク桜店</dt>
             <dt>銀の豚</dt>
-            <dt>ごう家</dt>
-            <dt>小山商会</dt>
-            <dt>桜ヶ丘歯科センター</dt>
-            <dt>suplis hair design</dt>
-            <dt>SALON DES CENT</dt>
+            <dt>株式会社アイデン</dt>
+            <dt>めんとるステーション</dt>
+            <dt>香陵住販株式会社</dt>
+            <dt>トクハシ(メガネ パリミキ）</dt>
+            <dt>上總屋不動産筑波大学前支店</dt>
+            <dt>プラス1カフェガーデン</dt>
+            <dt>飯岡医院</dt>
+            <dt>株大成不動産株式会社</dt>
+            <dt>春日歯科医院</dt>
+            <dt>有限会社岩崎電機</dt>
+            <dt>スープファクトリー</dt>
+            <dt>武田塾 つくば校</dt>
+            <dt>学園中央自動車学校</dt>
             <dt>どら焼き専門店 志ち乃</dt>
+            <dt>PROGRESS</dt>
+            <dt>ASA学園都市(朝日新聞等販売)</dt>
+            <dt>博多拉麺 一休</dt>
+            <dt>Neutral Closet・合同会社定越</dt>
+            <dt>スタジオソングサイクル</dt>
+            <dt>茶の木村園</dt>
+            <dt>ファミリーマート春日4丁目店</dt>
+            <dt>飯塚スタジオ</dt>
+            <dt>イセブ</dt>
+            <dt>ごう家</dt>
             <dt>株式会社秀和不動産</dt>
-            <dt>Jupiter</dt>
-            <dt>スーパーオートバックス 土浦東大通り</dt>
-            <dt>清六家</dt>
-            <dt>セブンイレブン つくば松見公園店</dt>
-            <dt>大成産業株式会社</dt>
-            <dt>武田塾</dt>
-            <dt>ラーメン 龍郎</dt>
+            <dt>北方園</dt>
+            <dt>つくばデザイン不動産</dt>
+            <dt>美味コレクション</dt>
           </dl>
           <dl>
-            <dt>茶の木村園</dt>
-            <dt>CHOKKIN NABE</dt>
-            <dt>つくば石焼芋</dt>
-            <dt>つくば青年会議所</dt>
-            <dt>（株）筑波地所</dt>
-            <dt>つくばデザイン不動産</dt>
-            <dt>つくばローカルコミュニティー</dt>
-            <dt>灯禾軒</dt>
-            <dt>TSS つくば予備校</dt>
-            <dt>Cafe & Bar Trigger</dt>
-            <dt>南山堂薬局</dt>
-            <dt>肉のいなげや</dt>
-            <dt>naked bar</dt>
-            <dt>メガネ パリミキ つくば大穂店</dt>
-            <dt>カラオケ BanBan つくば学園店</dt>
-            <dt>有限会社BIZ SHOP</dt>
+            <dt>カードックオオノ</dt>
+            <dt>勧学院</dt>
+            <dt>南山堂薬局つくば店</dt>
             <dt>びすとろ椿々 追越店</dt>
-            <dt>美味コレクション</dt>
-            <dt>平砂理容室</dt>
-            <dt>（有）フジエステート</dt>
-            <dt>レストラン フライパン</dt>
-            <dt>プログレス つくば店</dt>
-            <dt>（有）細田金物店</dt>
-            <dt>北方園</dt>
-            <dt>本家かまどや つくば春日店</dt>
-            <dt>おそば 増田屋</dt>
-            <dt>うなぎ 松乃家</dt>
-            <dt>MUSIC PLANT</dt>
-            <dt>めんとるステーションつくば</dt>
-            <dt>レストラン 夢屋</dt>
+            <dt>naked bar</dt>
+            <dt>セブンイレブンつくば松見公園店</dt>
+            <dt>桜ヶ丘歯科センター</dt>
+            <dt>TSSつくば予備校</dt>
+            <dt>うなぎ松乃家</dt>
+            <dt>(有)細田金物店</dt>
+            <dt>松見タクシー</dt>
+            <dt>七福軒</dt>
+            <dt>井上サイクル</dt>
+            <dt>印晶堂</dt>
+            <dt>かつ大</dt>
+            <dt>灯禾軒</dt>
+            <dt>Lagoon</dt>
+            <dt>LINER NOTES(ライナーノーツ)</dt>
             <dt>菱光建設株式会社</dt>
+            <dt>プリムローズ</dt>
+            <dt>ラーメン龍郎</dt>
+            <dt>一誠商事</dt>
+            <dt>肉のいなげや</dt>
             <dt>Layout9</dt>
-            <dt>ローソン 春日三丁目店</dt>
-            <dt>お酒とごはん わかたろう</dt>
+            <dt>Cafe & Bar Trigger</dt>
+            <dt>ひととつむぐカフェ 縁counter</dt>
+            <dt>Banzai Naporitan</dt>
+            <dt>FLOW会計事務所</dt>
           </dl>
-        </div>
+        </div> 
       </dd>
     </div>
     <div>
