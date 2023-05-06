@@ -1,7 +1,7 @@
 <template>
   <section>
-    <a href="pdf/pamph_48.pdf"
-      ><div class="pamphlet48">パンフレットはこちら！</div></a
+    <a href="pdf/pamph_49.pdf"
+      ><div class="pamphlet49">パンフレットはこちら！</div></a
     >
   </section>
 </template>
@@ -11,7 +11,7 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.pamphlet48 {
+.pamphlet49 {
   font-size: 3vw;
   background-color: #2e4b71;
   padding: 1rem 0.5rem;
