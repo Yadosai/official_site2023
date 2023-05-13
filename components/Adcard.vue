@@ -20,6 +20,9 @@
       <a href="https://flow-kaikei.com/" target="_blank">
       <img src="images/ad/FLOW会計事務所.png" alt="sponsor" class="web-ad-content" />
       </a>
+      <a href="https://bettei-tsukuba.com/" target="_blank">
+      <img src="images/ad/Bettei.png" alt="sponsor" class="web-ad-content" />
+      </a>
       <a href="/Adlist">
         <img src="images/ad/etc.png" alt="sponsor" class="web-ad-content" />
       </a>
