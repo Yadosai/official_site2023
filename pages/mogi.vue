@@ -7,181 +7,439 @@
       <h1 id="event-title" class="is-size-5 has-text-weight-bold">
         模擬店情報
       </h1>
-      <div class="mogi-map"><a href="images/info/mogi_map.jpg"><img src="images/info/mogi_map.jpg" width="600" height="900"></img></a></div>
+      <div class="mogi-map"><a href="images/info/mogi_map49.png"><img src="images/info/mogi_map49.png" width="600" height="900"></img></a></div>
       <div class="mogi-wrap">
-        <label for="label1">▼ 101:つくばフォーク村</label>
+        <label for="label1">▼ 1:芸術専門学群1-3 (前夜祭のみ)</label>
         <input id="label1" type="checkbox" class="switch" />
         <div class="content">
-          <p>つくばフォーク村が名前を変えて「つくばラムネ村」としてラムネを販売します！前から呼んでも後ろから読んでも「らむねむら」…。宿舎祭のお供にラムネはいかがですか？</p>
+          <p></p>
         </div>
-        <label for="label2">▼ 102:Beeeez out</label>
+        <label for="label2">▼ 2:生物学類2-4 (前夜祭のみ)</label>
         <input id="label2" type="checkbox" class="switch" />
         <div class="content">
-          <p>初めまして！ビーズアウトです！
-            僕たちは"第二の居場所"をテーマにサークル活動を行なっています！そのようなサークルの形を体現するべく、私たちは屋台として"休憩所"を提供しています！みなさんがメインステージで疲れた際には"第二の居場所"として僕たちの屋台を利用していただけたらと思っています！
-            利用料として飲み物300円（変動あり）つかみ取りで充電器貸し出ししています！
+          <p>緑のある生活はいかがですか？私たちは小さな観葉植物を販売しています！是非足を運んでみてください！
           </p>
         </div>
-        <label for="label3">▼ 111:スポデー委員2年</label>
+        <label for="label3">▼ 3:総合Ⅲ類1-3</label>
         <input id="label3" type="checkbox" class="switch" />
         <div class="content">
-          <p>こんにちは！スポーツ·デー学生委員会２年生です！私たちは、スポデーで溢れてしまった気合を小さく丸めて、タピオカにしてみました！と暑くなってきたこの季節に、冷たいタピオカドリンクはいかがですか？？売り切れ御免！数量限定！明るく元気にお待ちしています！</p>
+          <p>さあさあお立合い！！つくばトゥーンで激レア商品を打ち取らなイカ？？？ほなカイサン！！！</p>
         </div>
-        <label for="label4">▼ 201:看護1-B</label>
+        <label for="label4">▼ 4:現代視覚文化研究会喫茶班</label>
         <input id="label4" type="checkbox" class="switch" />
         <div class="content">
           <p>Shooting game</br>
-            〜元JKと制服ディズニーしよ?〜</br>
-            こんにちは！ITF.nurse22がお送りする夢の国へようこそ！元気いっぱいキラキラ看護学生がやどかり祭を盛り上げちゃいます！！皆様を夢のShooting gameの世界へお連れしたいと思います～！手指消毒を忘れずに！それではShooting gameの世界へ行ってらっしゃい～！！！！
+            やど祭は5月の土曜日、つまりメイ・ド開催！<br>
+            ITF.や”マジック”を用意して、ご帰宅をお待ちしてます！
           </p>
         </div>
-        <label for="label5">▼ 301:国際総合2-1</label>
+        <label for="label5">▼ 5:看護学類1年</label>
         <input id="label5" type="checkbox" class="switch" />
         <div class="content">
-          <p>いつも元気でなかよしな国際2年1クラスです♡</p>
+          <p>キラキラ看護1年生で色んな味のポップコーン売ります！<br>
+            看護の知り合いできること間違いなし！ぜひ来てね～</p>
         </div>
-        <label for="label6">▼ 303:国際総合1-2</label>
+        <label for="label6">▼ 6:社会工学類1-4</label>
         <input id="label6" type="checkbox" class="switch" />
         <div class="content">
-          <p>ポンポン打って的を射止める！一風変わった射的をお求めの方はどうぞこちらへ～～</p>
+          <p></p>
         </div>
-        <label for="label7">▼ 311:社会1-1</label>
+        <label for="label7">▼ 7:社会学類1-2</label>
         <input id="label7" type="checkbox" class="switch" />
         <div class="content">
-          <p>社学1クラスによる「射楽」！水鉄砲で涼みながら的を狙え！！景品もあるよ～</p>
-        </div>
-        <label for="label8">▼ 312:社会１-3</label>
-        <input id="label8" type="checkbox" class="switch" />
-        <div class="content">
-          <p>社会学類1-3ではラムネを販売しています。氷水に浸けた状態で提供しているため、冷たく、暑い夏にピッタリです！</p>
-        </div>
-        <label for="label9">▼ 401:知識1-1・2</label>
-        <input id="label9" type="checkbox" class="switch" />
-        <div class="content">
-          <p>けーりす射的 目指せ一攫千菓！！ 挑戦お待ちしています！！</p>
-        </div>
-        <label for="label10">▼ 501:教育１</label>
-        <input id="label10" type="checkbox" class="switch" />
-        <div class="content">
-          <p>あなたの課題や日頃の悩みを、お菓子と共に水に流しませんか、、、？</p>
-        </div>
-        <label for="label11">▼ 511:心理1-1</label>
-        <input id="label11" type="checkbox" class="switch" />
-        <div class="content">
-          <p>心理学類1クラスです！</br>
-              駄菓子を販売します！……さらに多くの駄菓子を賭け、ゲームをしてみませんか？？
+          <p>やど祭の熱気の中で食べたい屋台の新定番。<br>
+              ひんやりと甘い冷凍フルーツに、ソーダをかけて召し上がれ！！  
           </p>
         </div>
-        <label for="label12">▼ 512:心理1-2</label>
+        <label for="label8">▼ 8:医学類1-4</label>
+        <input id="label8" type="checkbox" class="switch" />
+        <div class="content">
+          <p>某たこ焼きチェーン店以上の美味しさと愛嬌詰まってます！「金だこ🐙」ぜひ来てね！</p>
+        </div>
+        <label for="label9">▼ 9:比較文化学類1-2</label>
+        <input id="label9" type="checkbox" class="switch" />
+        <div class="content">
+          <p>さくっとあげあげ、とろけてしあわせ。cccChef's Caprice Cheese、お試しあれ！</p>
+        </div>
+        <label for="label10">▼ 10:総合Ⅰ類1-1</label>
+        <input id="label10" type="checkbox" class="switch" />
+        <div class="content">
+          <p>バニラの香りを感じたならば<br>
+          是非ともうちにいらっしゃい<br>
+          心躍るパンケーキを皆様に<br>
+          『パンケーキへの誘い』</p>
+        </div>
+        <label for="label11">▼ 11:生物資源学類1-3</label>
+        <input id="label11" type="checkbox" class="switch" />
+        <div class="content">
+          <p>キラキラ資源になりたい新入生が19名でみんなが大好き熱々餃子を販売します！ぜひ来てね〜😊</p>
+        </div>
+        <label for="label12">▼ 12:生物資源学類1-1</label>
         <input id="label12" type="checkbox" class="switch" />
         <div class="content">
-          <p>しぶりのお祭りを水鉄砲シューティングゲームで楽しみませんか？心理学類監修のおみくじ付き景品であなたの運勢も丸わかり！！</p>
+          <p>
+            山道を進んだ先にあって、扉を開けるとあまーい匂いでいっぱい。そんなお菓子屋さんに来てみませんか？
+          </p>
         </div>
-        <label for="label13">▼ 601:人文1-4</label>
+        <label for="label13">▼ 13:社会工学類1-1(菱田)b</label>
         <input id="label13" type="checkbox" class="switch" />
         <div class="content">
-          <p>縁日！射的とおみくじが楽しめます！</p>
+          <p>
+            ボールを皿に入れて景品ゲット！<br>
+            猿でもできるボールゲーム！<br>
+            筑波一のテクニシャン求む。
+          </p>
         </div>
-        <label for="label14">▼ 611:比文1-1</label>
+        <label for="label14">▼ 14:社会工学類1-1(田中)a</label>
         <input id="label14" type="checkbox" class="switch" />
         <div class="content">
-          <p>比文で唯一の出店です！ぜひ来てください！</p>
+          <p>
+            材料、味全てをこだわった絶品ハンバーガー＆ポテト！<br>
+            冷めても美味い！メニューはQRコードから公式へGO！
+          </p>
         </div>
-        <label for="label15">▼ 711:生物資源1-1</label>
+        <label for="label15">▼ 15:化学類1-1,1-2</label>
         <input id="label15" type="checkbox" class="switch" />
         <div class="content">
-          <p>絶対お菓子もらえます！</p>
+          <p>今日はお祭り。昼はフェイスペイント、夜は光る小物でステージを盛り上げよう！おやつもあるよ</p>
         </div>
-        <label for="label16">▼ 712:生物資源1-2</label>
+        <label for="label16">▼ 16:国際総合学類1-1</label>
         <input id="label16" type="checkbox" class="switch" />
         <div class="content">
-          <p>とめどなく増える溜めコマ。膨れゆく不安。そんな日々の鬱憤を弾き飛ばしてみませんか？もしかすると、風船を割れば溜めコマも減るかもしれません。資源1年2クラスによるバルーンダーツ、ぜひ1度お立ち寄りください。</p>
+          <p>食うたらわかる。魂の唐揚げ。</p>
         </div>
-        <label for="label17">▼ 713:生物資源1-4</label>
+        <label for="label17">▼ 17:社会工学類1-3</label>
         <input id="label17" type="checkbox" class="switch" />
         <div class="content">
-          <p>新感覚ヨーヨー釣り、君たちは耐え切れるか。普通のヨーヨー釣りもあるよ！！来てね！！</p>
+          <p></p>
         </div>
-        <label for="label18">▼ 714:生物資源1-5</label>
+        <label for="label18">▼ 18:医学類1-1</label>
         <input id="label18" type="checkbox" class="switch" />
         <div class="content">
-          <p>アトラクションに成功すれば、景品が手に入るかも！？ぜひ、遊びに来てください</p>
+          <p>
+            医学類1クラスによる焼き芋ブリュレ🍠<br>
+            ほくほく甘いさつまいもに、砂糖を塗ってブリュレに仕上げました！
+          </p>
         </div>
-        <label for="label19">▼ 721:地球1-1・2</label>
+        <label for="label19">▼ 19:Global Village A301</label>
         <input id="label19" type="checkbox" class="switch" />
         <div class="content">
-          <p>地球からの贈り物 ～鉱物採集体験·鉱物化石展示即売会～！</p>
+          <p>
+            2本150円の格安焼き鳥！歴代グロビA-301住人がプロ顔負けの絶品をお届け！ <br>
+            4種類の味を是非お楽しみください！
+          </p>
         </div>
-        <label for="label20">▼ 801:総合Ⅲ1-1</label>
+        <label for="label20">▼ 20:筑波大学広島県人会</label>
         <input id="label20" type="checkbox" class="switch" />
         <div class="content">
-          <p>話題になった韓国ドラマ「イカゲーム」に登場した型抜きを体験出来ます！少しでも興味ある方お立ち寄りください！</p>
+          <p>広島銘菓・もみじ饅頭を天ぷらにした宮島の名産、揚げもみじ饅頭が筑波に登場！この機会に是非ご賞味下さい！</p>
         </div>
-        <label for="label21">▼ 802:総合Ⅲ 1-5</label>
+        <label for="label21">▼ 21:地球学類1年 (本祭のみ)</label>
         <input id="label21" type="checkbox" class="switch" />
         <div class="content">
-          <p>エナジードリンクだけに特化した尖りに尖ったお店です！お得に買えるかも！？</p>
+          <p>くじを引ける回数は射的のウデ次第！！！</p>
         </div>
-        <label for="label22">▼ 803:総合Ⅲ1-6</label>
+        <label for="label22">▼ 22:珈琲・俺 (本祭のみ)</label>
         <input id="label22" type="checkbox" class="switch" />
         <div class="content">
-          <p>ベビタッピ 君の未来をタコピーが君色にする約束のこと</p>
+          <p>珈琲好き必見！雙峰祭で『優秀賞』の珈琲・俺がやど祭にも出店！『美味しい』コーヒーを是非どうぞ。</p>
         </div>
-        <label for="label23">▼ 811:総合Ⅱ1-8</label>
+        <label for="label23">▼ 23:比較文化学類1-1 (本祭のみ)</label>
         <input id="label23" type="checkbox" class="switch" />
         <div class="content">
-          <p>豪華景品をかけてボール投げに挑戦しましょう！</p>
+          <p>かつて聞かれた華金という言葉。これを令和に蘇らせます！華の比文が送る新しい華金。ぜひご堪能あれ</p>
         </div>
-        <label for="label24">▼ 821:総合Ⅰ類1-2</label>
+        <label for="label24">▼ 24:生物学類1-3 (本祭のみ)</label>
         <input id="label24" type="checkbox" class="switch" />
         <div class="content">
-          <p>こんにちは！私たちのクラスではぐるぐるバット輪投げを企画しています。難しいチャレンジに見事成功した方には豪華なプレゼントも…！？ぜひ気軽に挑戦していってくださいね！</p>
+          <p>本物のやどかりは売れないので、ワッフルにして販売します！生物学類ならでは？の模擬店です！</p>
         </div>
-        <label for="label25">▼ 901:応理1-3</label>
+        <label for="label25">▼ 25:筑波大学沖縄県人会</label>
         <input id="label25" type="checkbox" class="switch" />
         <div class="content">
-          <p>みんなで楽しくわいわいできるストラックアウトです！役立つ景品も用意しているのでぜひ来てください！</p>
+          <p>私たち沖縄県人会はサーターアンダギー、ちんすこうなどを販売します！いっぺーまーさん(とってもおいしい)からみんな来てね～！</p>
         </div>
-        <label for="label26">▼ 911:化学1-1・2</label>
+        <label for="label26">▼ 26:地球学類2年</label>
         <input id="label26" type="checkbox" class="switch" />
         <div class="content">
-          <p>化学類ではラムネを販売します!キリッと冷えたラムネたちがみなさまをお待ちしております。ぜひお越しください!</p>
+          <p>地球大好き地球学類2年生による鉱物・化石販売です。美しい鉱物や地球の歴史を感じる化石はいかがですか？</p>
         </div>
-        <label for="label27">▼ 922:社工1-1</label>
+        <label for="label27">▼ 27:総合Ⅲ類1-2</label>
         <input id="label27" type="checkbox" class="switch" />
         <div class="content">
-          <p>お祭りのお供にはやっぱり冷たい飲み物！冷たい飲み物を格安で買えます！</p>
+          <p>できたてサクサクのクロワッサンたい焼きはいかがですか？</p>
         </div>
-        <label for="label28">▼ 923:社工1-2</label>
+        <label for="label28">▼ 28:地理愛好会</label>
         <input id="label28" type="checkbox" class="switch" />
         <div class="content">
-          <p>コイン落としと射的をやっています！つくば生が喜ぶ、豪華景品が盛り沢山です!
-          赤字は覚悟の上です！！どこに行くか迷ったらまずは私たちのお店にお尋ねを、後悔はさせません！</p>
+          <p>
+            同じものであっても地域によって呼び名は異なる、そんな甘味を我々地理愛好会が作り上げます！
+          </p>
         </div>
-        <label for="label29">▼ 924:社工1-3</label>
+        <label for="label29">▼ 29:比較文化学類1-3</label>
         <input id="label29" type="checkbox" class="switch" />
         <div class="content">
-          <p>ポーカー、ブラックジャック、ババ抜きやります。ルールは分からなくてもOK!</p>
+          <p>ここは平砂、またの名をParis───。比文1-3が貴方に贈る至高のドルチェをお楽しみください。</p>
         </div>
-        <label for="label30">▼ 925:社工1-4</label>
+        <label for="label30">▼ 30:生物資源学類1-5</label>
         <input id="label30" type="checkbox" class="switch" />
         <div class="content">
-          <p>ボールを投げて巨大な的を倒すだけのシンプルゲーム！制限時間内ならボール投げ放題！あの超大型を倒せる強者は現れるのか、、挑戦者求む！！(難易度低めの的もあるので誰でも気軽にお越しください～)</p>
+          <p>某ハンバーガー屋超えの新感覚！！これがほしかったんでしょ！？</p>
         </div>
-        <label for="label31">▼ 931:数学１</label>
+        <label for="label31">▼ 31:医学類1-2</label>
         <input id="label31" type="checkbox" class="switch" />
         <div class="content">
-          <p>数学類らしからぬ数学を一切使わない体験型イベントです！ぜひ来て下さい！</p>
+          <p>タピオカ、覚えてる？そろそろ飲みたくない？</p>
         </div>
-        <label for="label32">▼ 932:数学 2</label>
+        <label for="label32">▼ 32:国際総合学類2年</label>
         <input id="label32" type="checkbox" class="switch" />
         <div class="content">
-          <p>私たち数学類２年はダーツの出店を行います！高得点を出したら景品がもらえるかも！？ぜひ来てみてください！</p>
+          <p>お腹を満たすエビピラフと幸せのレモネードをぜひご賞味あれ！個性豊かな国際2年が待ってます🌈</p>
         </div>
-        <label for="label33">▼ 941:物理1-1</label>
+        <label for="label33">▼ 33:生物資源学類1-2</label>
         <input id="label33" type="checkbox" class="switch" />
         <div class="content">
-          <p>射的と言いつつ、シューティングゲームよりかも！</p>
+          <p>
+            私たちの大学、筑波とかけて一つ約29.8(つくば)gのたこ焼き六個入りを販売しています！<br>
+            その場で揚げたてほやほやのたこ焼きを是非買いに来てください！<br>
+            2クラスー同お待ちしております！
+            </p>
+        </div>
+        <label for="label34">▼ 34:総合Ⅱ類1-4</label>
+        <input id="label34" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            君はこの勝負に勝てる？ 最高の運試しをして景品をゲットしよう！！
+          </p>
+        </div>
+        <label for="label35">▼ 35:つくばミュージックプロジェクト</label>
+        <input id="label35" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            ワッフルを販売します！売り上げは雙峰祭にてプロのアーティストを呼ぶために使わせてもらいます。よろしくお願いします！
+          </p>
+        </div>
+        <label for="label36">▼ 36:芸術専門学群1-1</label>
+        <input id="label36" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            芸専1-1では、写真映え間違いなしのカラフル可愛いフルーツ飴を販売します！ぜひおいでください！
+          </p>
+        </div>
+        <label for="label37">▼ 37:情報科学類1年</label>
+        <input id="label34" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            こんにちは！coinsです！私たちは、coinにちなんで、お好み焼きを作ります！いっぱい来てね🫶
+          </p>
+        </div>
+        <label for="label38">▼ 38:総合Ⅱ類1-5</label>
+        <input id="label38" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            私たち2525キッチンはチーズボールやトルネードポテトで皆さんがニコニコできるよう、心を込めて作ります！
+          </p>
+        </div>
+        <label for="label39">▼ 39:総合Ⅲ類1-1</label>
+        <input id="label39" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+           「炭酸とほのかな甘みがたまらない！手軽に楽しめるラムネの屋台です。ご家族や友人と一緒に、夏の風物詩を先取りしましょう。」
+          </p>
+        </div>
+        <label for="label40">▼ 40:社会工学類1-2 (本祭のみ)</label>
+        <input id="label40" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            「学祭で大人気！筑波大学社会工学類のフランクフルトソーセージ！セットでドリンク買えば割引！ソーセージとドリンクで一休み♪」
+          </p>
+        </div>
+        <label for="label41">▼ 41:総合Ⅲ類1-5 (本祭のみ)</label>
+        <input id="label41" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            お金を失わずギャンブルしたくないですか?豊富なゲームを用意して待ってます!ぜひ遊びに来て下さい!
+          </p>
+        </div>
+        <label for="label42">▼ 42:総合Ⅰ類1-2 (本祭のみ)</label>
+        <input id="label42" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            ほっとする味を貴方に。<br>
+            弾けたもろこしがレモネードとともにお待ちしております。
+          </p>
+        </div>
+        <label for="label43">▼ 43:人文学類1-3 (本祭のみ)</label>
+        <input id="label43" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            チョコバナナを販売します。ぜひ食べに来てください！
+          </p>
+        </div>
+        <label for="label44">▼ 44:物理学類1年 (本祭のみ)</label>
+        <input id="label44" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            シュレディンガーのクレープへようこそ！<br>
+            食べてみるまで美味しさは決まらない！？そんな不思議で美味しいクレープを是非ご試食あれ！
+          </p>
+        </div>
+        <label for="label45">▼ 45:人文学類1-4 (本祭のみ)</label>
+        <input id="label45" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            ベビーカステラ＆たこ焼き店、我ら「たこカス」！IMAGINE TAKOKASU FUTURE——
+          </p>
+        </div>
+        <label for="label47">▼ 47:日本語・日本文化学類1年 (本祭のみ)</label>
+        <input id="label47" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            私たち日日はお菓子すくいを開催しています！すくう道具はくじで決定...？！ぜひ運試しにお越しください！
+          </p>
+        </div>
+        <label for="label48">▼ 48:心理学類1-2 (本祭のみ)</label>
+        <input id="label48" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            焼き鳥だけじゃないんです！フランクフルトにマシュマロも揃えた“焼き鳥(仮)”で祭りのお供をどうぞ！
+          </p>
+        </div>
+        <label for="label49">▼ 49:総合Ⅰ類1-5 (本祭のみ)</label>
+        <input id="label49" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            がんばります！
+          </p>
+        </div>
+        <label for="label50">▼ 50:筑波大学中国留学生学友会 (本祭のみ)</label>
+        <input id="label50" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            「パンダ小籠包」は、ジューシーな小籠包や可愛いまんじゅうを販売しています！ぜひお立ち寄りください！
+          </p>
+        </div>
+        <label for="label51">▼ 51:総合Ⅰ類1-4 (本祭のみ)</label>
+        <input id="label51" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            ホストクラブでたこ焼きを食べてみませんか？？たこやき購入のみも可！ぜひ来てください！！
+          </p>
+        </div>
+        <label for="label52">▼ 52:社会学類1-1</label>
+        <input id="label52" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            社会学類1-1です！焼き鳥を食べたあとにラムネでリフレッシュ！ぜひお越しください！
+          </p>
+        </div>
+        <label for="label53">▼ 53:心理学類1-1</label>
+        <input id="label53" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            熱々で、外はカリッと、中はトロトロの「丸いやつ」売ってます！ご一緒に特製フルーツジュースも是非！
+          </p>
+        </div>
+        <label for="label54">▼ 54:funcreap-ファンクレプ-</label>
+        <input id="label54" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            クレープ好き達が集まって考えた本気のクレープです🍓<br>
+            お店に顔負けのクレープになること間違いなし<br>
+            是非一度、食べに来てください！
+          </p>
+        </div>
+        <label for="label55">▼ 55:人文学類1-2</label>
+        <input id="label55" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            韓国発祥モチモチ生地のチーズボールと中華の定番やさしい甘さのごま団子のお店です。ぜひ来てください！
+          </p>
+        </div>
+        <label for="label56">▼ 56:教育学類1年</label>
+        <input id="label56" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            いい人だらけの「フランクな人たち」教育学類1年生です！人型のフランクフルトがうちのイチオシ商品！冷凍パインも売ってます🍍
+          </p>
+        </div>
+        <label for="label57">▼ 57:医学類1-5</label>
+        <input id="label57" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            食に目がいっているそこのあなた！ボール投げをして、運動がてらハズレ無しの豪華賞品をゲットしよう！
+          </p>
+        </div>
+        <label for="label58">▼ 58:総合Ⅱ類1-4</label>
+        <input id="label58" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            美味しいと美味しいで美味しくないわけがない！暑い時期にひんやりしませんか(^^)
+          </p>
+        </div>
+        <label for="label59">▼ 59:情報メディア創成学類1年</label>
+        <input id="label59" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            【本人公認】カレーは飲み物！？落合陽一先生考案カレーにストローを刺して飲む落合カレーをお試しあれ！！
+          </p>
+        </div>
+        <label for="label60">▼ 60:障害科学類1年</label>
+        <input id="label60" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            甘いもの、そろそろ食べたくありませんか？障害科学類１年生がワッフルを心を込めてお作りします！
+          </p>
+        </div>
+        <label for="label61">▼ 61:総合Ⅱ類1-7</label>
+        <input id="label61" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            
+          </p>
+        </div>
+        <label for="label62">▼ 62:工学システム学類1-3</label>
+        <input id="label62" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            的を狙って撃つ、シンプルな射的です。自らの射撃の腕前、試してみませんか？
+          </p>
+        </div>
+        <label for="label63">▼ 63:医学類1-6</label>
+        <input id="label63" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            マクドナルドでは物足りなくなるほどの美味しさ。ぜひ食べに来てください。
+          </p>
+        </div>
+        <label for="label64">▼ 64:医療科学類1年</label>
+        <input id="label64" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            医療科学類1年です！おいしさ検査済み！外はカリッと中はとろ～り。アツアツたこ焼き販売してます！
+          </p>
+        </div>
+        <label for="label65">▼ 65:つくぶい！</label>
+        <input id="label65" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            筑波大発のVTuber企画「つくぶい！」がやど祭に！<br>
+            杏エイリ、明灯、融月レイのグッズを販売します！！
+          </p>
+        </div>
+        <label for="label66">▼ 66:国際総合学類1-2</label>
+        <input id="label66" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            ポップコーンで世界を旅しませんか？まだ食べたことのない味に出会えるかも！お待ちしてます！
+          </p>
+        </div>
+        <label for="label67">▼ 67:生物資源学類1-4</label>
+        <input id="label67" type="checkbox" class="switch" />
+        <div class="content">
+          <p>
+            「焼きそばなんてどこも同じ」そう思っていませんか？金輪際現れないYAKISOBA、是非ご堪能あれ！
+          </p>
         </div>
       </div>
     </div>
