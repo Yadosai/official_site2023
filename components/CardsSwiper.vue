@@ -21,7 +21,7 @@
       </swiper-slide> 
       <swiper-slide>
         <nuxt-link to="/events/himoji">
-          <Card image-path="/images/events/himoji.jpeg" title="火文字" />
+          <Card image-path="/images/events/himoji.jpeg" title="火文字＆火文字パフォーマンス" />
         </nuxt-link>
       </swiper-slide>
       <swiper-slide>
