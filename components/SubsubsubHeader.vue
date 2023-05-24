@@ -1,7 +1,7 @@
 <template>
   <section>
     <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfhh2YQPNE_i59AGOOclJFf5A5FYpREu3TQwWbRjI5H7vqcng/viewform?usp=sf_link"
+      href="https://docs.google.com/forms/d/e/1FAIpQLScgwDx_BZUzNhXx_mVz5z5BU6xKhcUtjqVwopQfdLFP0pvVPA/viewform?usp=sf_link"
       ><div class="yukakon">ゆかこんの投票はこちらから！</div></a
     >
   </section>
