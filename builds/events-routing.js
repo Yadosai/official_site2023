@@ -7,7 +7,7 @@ const events = [
   'himoji',
   'dance',
   'quiz',
-  'live'
+  'live',
 ]
 
 export { events }
