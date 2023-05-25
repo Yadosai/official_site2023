@@ -24,6 +24,7 @@ const events = {
     name: '御輿',
     actor: '1年生向け企画',
     image_name: 'mikoshi.jpg',
+    time_image_name: 'mikoshi_time.png',
     description:
       '祭りといえば、やっぱり御輿！！！やどかり祭最大規模を誇るこの企画。 毎年、学群・学類ごとに制作した個性豊かな御輿が祭り会場に現れます。今年はどのような御輿がやどかり祭に登場するのでしょうか？？お楽しみに!!御輿がメインストリートを縦断する迫力満点の練り歩きと、趣向を凝らしたパフォーマンスは必見です！'
   },
@@ -38,6 +39,7 @@ const events = {
     name: '火文字＆火文字パフォーマンス',
     actor: '全体装飾部局',
     image_name: 'himoji.jpeg',
+    time_image_name: 'himoji_time.png',
     description:
       '委員による幻想的な火文字！例年漢字一文字に火を灯しますが、今年は何になるのでしょうか。そして、その直前に行われる3つの団体によるパフォーマンスも必見です！客席と演者の高低差がある特殊なステージとなっています。'
   },
@@ -45,6 +47,7 @@ const events = {
     name: 'ダンス',
     actor: '有志・サークル',
     image_name: 'dance.jpeg',
+    time_image_name: 'dance_time.png',
     description:
       '毎年大きな盛り上がりをみせるダンス企画！ダンスサークルが勢揃い、各団体圧巻のパフォーマンスです。こんな風に私も踊りたい！！'
   },
@@ -59,9 +62,10 @@ const events = {
     name: '野外ライブ',
     actor: '有志・軽音楽サークル',
     image_name: 'live.png',
+    time_image_name: 'live_time.png',
     description:
       '宿舎祭の始まりを彩るのが、野外ライブです！多くの芸術系サークルが参加します。それぞれの色が見える、美しい演奏を堪能できます。宿舎祭への期待が高まるオープニングです！'
-  }
+  },
 }
 
 export { events }
