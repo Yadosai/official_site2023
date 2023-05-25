@@ -18,6 +18,13 @@
       <p id="event-description" class="mt-4">
         {{ event.description }}
       </p>
+      <div id="event-time-img-wrap" class="mt-4">
+        <img
+          id="event-time-img"
+          :src="`/images/events/time/${event.time_image_name}`"
+          alt="torch-img"
+        />
+      </div>
     </div>
     <div>
       <div id="other-event-wrap" class="p-6">
@@ -78,6 +85,14 @@ export default {
 
   #event-description {
     text-align: left;
+  }
+
+  #event-time-img-wrap {
+    text-align: center;
+    width: 100%;
+    #event-time-img {
+      width: 100vh;
+    }
   }
 }
 #other-event-wrap {
