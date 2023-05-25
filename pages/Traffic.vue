@@ -16,7 +16,7 @@
         <span style="font-weight:bold">自転車で来られる方へのおしらせです。</span></br>
         自転車でお越しの際は必ず紫色部の駐輪場に停めてください。紫色部以外に止められている自転車を発見次第、付近の駐輪場に停めさせて頂きますので予めご了承ください。
       </p>
-      <p><a href="images/info/traffic_info.png" target="_blank"><img src="images/info/traffic_info.png" width="400" height="600"></img></a></p></div>
+      <p><a href="images/info/traffic_info_new.jpg" target="_blank"><img src="images/info/traffic_info_new.jpg" width="400" height="600"></img></a></p></div>
     </div>
   </section>
 </template>

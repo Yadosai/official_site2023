@@ -10,6 +10,7 @@ const events = {
     name: 'ゆかコン',
     actor: '1年生向け企画',
     image_name: 'yukacon.jpg',
+    time_image_name: 'yukacon_time.png',
     description:
       '本祭の最後に有志の一年生グループがメインステージでパフォーマンスをします！ゆかこん嬢を中心に、それぞれが工夫を凝らしたステージは毎年大盛況。やどかり祭を締めくくる、最後の一大企画...毎年大きな盛り上がりを見せています！'
   },
